@@ -1,0 +1,3 @@
+_GENERIC_BASE,_SIG3_ESOA,_SIG3_PNF,score,rank,ties_top1,strength_sim,form_sim,route_sim,brand_hit,atc_hit,ITEM_NUMBER,ITEM_REF_CODE,MOLECULE_PNF,ROUTE_PNF,TECHNICAL_SPECIFICATIONS_PNF,ATC_CODE_PNF,bucket
+INSULIN GLARGINE,UNSPECIFIED|UNSPECIFIED,"100IU,3ML|UNSPECIFIED|SC",0.55,1,0,0.5,1.0,0.0,1,1,12835,DrugsAndMedicine,Insulin Glargine,SC:,100 IU/mL in 3 mL Pre-filled pen ,A10AE04 ,rejected
+BUPIVACAINE,0.5%|UNSPECIFIED,"0.5%,5ML|VIAL|INJ.",0.35,1,1,0.5,0.0,0.0,1,1,148612,DrugsAndMedicine,Bupivacaine,Inj.:,0.5% (as Hydrochloride) in 5 mL Vial ,N01BB01,rejected

@@ -1,0 +1,510 @@
+_GENERIC_BASE,_SIG3_ESOA,_SIG3_PNF,score,rank,ties_top1,strength_sim,form_sim,route_sim,brand_hit,atc_hit,ITEM_NUMBER,ITEM_REF_CODE,MOLECULE_PNF,ROUTE_PNF,TECHNICAL_SPECIFICATIONS_PNF,ATC_CODE_PNF
+DYDROGESTERONE,UNSPECIFIED|UNSPECIFIED,10MG|TABLET|PO,0.35,1,0,0.5,0.0,0.0,1,1,10665,DrugsAndMedicine,Dydrogesterone,Oral:,10 mg Tablet ,G03DB01
+STREPTOKINASE,UNSPECIFIED|UNSPECIFIED,000IU|VIAL|INJ.,0.35,1,0,0.5,0.0,0.0,1,1,11644,DrugsAndMedicine,Streptokinase,Inj.:,"1,500,000 IU Powder Vial (IV infusion) ",B01AD01 
+MEFENAMIC ACID,UNSPECIFIED|UNSPECIFIED,"250MG|CAPSULE,TABLET|PO",0.35,1,1,0.5,0.0,0.0,1,1,12319,DrugsAndMedicine,Mefenamic Acid,Oral:,250 mg Tablet /Capsule *Primary Health Care,M01AG01 
+MEFENAMIC ACID,UNSPECIFIED|UNSPECIFIED,"500MG|CAPSULE,TABLET|PO",0.35,2,1,0.5,0.0,0.0,1,1,12319,DrugsAndMedicine,Mefenamic Acid,Oral:,500 mg Tablet /Capsule *Primary Health Care,M01AG01 
+STREPTOKINASE,UNSPECIFIED|UNSPECIFIED,000IU|VIAL|INJ.,0.35,1,0,0.5,0.0,0.0,1,1,12913,DrugsAndMedicine,Streptokinase,Inj.:,"1,500,000 IU Powder Vial (IV infusion) ",B01AD01 
+INSULIN GLARGINE,UNSPECIFIED|UNSPECIFIED,"100IU,3ML|UNSPECIFIED|SC",0.55,1,0,0.5,1.0,0.0,1,1,12835,DrugsAndMedicine,Insulin Glargine,SC:,100 IU/mL in 3 mL Pre-filled pen ,A10AE04 
+INSULIN GLARGINE,UNSPECIFIED|UNSPECIFIED,"100IU,10ML|VIAL|SC",0.35,2,0,0.5,0.0,0.0,1,1,12835,DrugsAndMedicine,Insulin Glargine,SC:,100 IU/mL in 10 mL Vial ,A10AE04 
+PARACETAMOL,UNSPECIFIED|UNSPECIFIED,300MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,14147,DrugsAndMedicine,Paracetamol,Oral:,300 mg Tablet *Primary Health Care,N02BE01
+PARACETAMOL,UNSPECIFIED|UNSPECIFIED,500MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,14147,DrugsAndMedicine,Paracetamol,Oral:,500 mg Tablet *Primary Health Care,N02BE01
+PARACETAMOL,UNSPECIFIED|UNSPECIFIED,"100MG,15ML|DROPS|PO",0.35,3,1,0.5,0.0,0.0,1,1,14147,DrugsAndMedicine,Paracetamol,Oral:,100 mg/mL Drops in 15 mL (Alcohol-free) *Primary Health Care,N02BE01
+HYPROMELLOSE,UNSPECIFIED|UNSPECIFIED,"10ML,5MG|DROPS,SOLUTION|OPHTHALMIC",0.35,1,1,0.5,0.0,0.0,1,1,39000,DrugsAndMedicine,Hypromellose,Ophthalmic:,5 mg/mL Solution in 10 mL (Eye drops) ,S01KA02
+HYPROMELLOSE,UNSPECIFIED|UNSPECIFIED,"15ML,5MG|DROPS,SOLUTION|OPHTHALMIC",0.35,2,1,0.5,0.0,0.0,1,1,39000,DrugsAndMedicine,Hypromellose,Ophthalmic:,5 mg/mL Solution in 15 mL (Eye drops) ,S01KA02
+HYPROMELLOSE,UNSPECIFIED|UNSPECIFIED,"10MG,10ML|DROPS,SOLUTION|OPHTHALMIC",0.35,3,1,0.5,0.0,0.0,1,1,39000,DrugsAndMedicine,Hypromellose,Ophthalmic:,10 mg/mL Solution in 10 mL (Eye drops) ,S01KA02
+PARACETAMOL,UNSPECIFIED|UNSPECIFIED,300MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,48076,DrugsAndMedicine,Paracetamol,Oral:,300 mg Tablet *Primary Health Care,N02BE01
+PARACETAMOL,UNSPECIFIED|UNSPECIFIED,500MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,48076,DrugsAndMedicine,Paracetamol,Oral:,500 mg Tablet *Primary Health Care,N02BE01
+PARACETAMOL,UNSPECIFIED|UNSPECIFIED,"100MG,15ML|DROPS|PO",0.35,3,1,0.5,0.0,0.0,1,1,48076,DrugsAndMedicine,Paracetamol,Oral:,100 mg/mL Drops in 15 mL (Alcohol-free) *Primary Health Care,N02BE01
+CEFIXIME,UNSPECIFIED|UNSPECIFIED,200MG|CAPSULE|PO,0.35,1,1,0.5,0.0,0.0,1,1,39003,DrugsAndMedicine,Cefixime,Oral:,200 mg Capsule *Primary Health Care,J01DD08
+CEFIXIME,UNSPECIFIED|UNSPECIFIED,400MG|CAPSULE|PO,0.35,2,1,0.5,0.0,0.0,1,1,39003,DrugsAndMedicine,Cefixime,Oral:,400 mg Capsule ,J01DD08
+CEFIXIME,UNSPECIFIED|UNSPECIFIED,"10ML,20MG|DROPS|PO",0.35,3,1,0.5,0.0,0.0,1,1,39003,DrugsAndMedicine,Cefixime,Oral:,20 mg/mL in 10 mL (drops) *Primary Health Care,J01DD08
+EPERISONE,UNSPECIFIED|UNSPECIFIED,50MG|TABLET|PO,0.35,1,0,0.5,0.0,0.0,1,1,20745,DrugsAndMedicine,Eperisone hydrochloride,Oral:,50 mg Tablet ,M03BX09
+PARACETAMOL,UNSPECIFIED|UNSPECIFIED,300MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,31124,DrugsAndMedicine,Paracetamol,Oral:,300 mg Tablet *Primary Health Care,N02BE01
+PARACETAMOL,UNSPECIFIED|UNSPECIFIED,500MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,31124,DrugsAndMedicine,Paracetamol,Oral:,500 mg Tablet *Primary Health Care,N02BE01
+PARACETAMOL,UNSPECIFIED|UNSPECIFIED,"100MG,15ML|DROPS|PO",0.35,3,1,0.5,0.0,0.0,1,1,31124,DrugsAndMedicine,Paracetamol,Oral:,100 mg/mL Drops in 15 mL (Alcohol-free) *Primary Health Care,N02BE01
+FENOFIBRATE,UNSPECIFIED|UNSPECIFIED,200MG|CAPSULE|PO,0.35,1,1,0.5,0.0,0.0,1,1,38795,DrugsAndMedicine,Fenofibrate,Oral:,200 mg Capsule *Primary Health Care,C10AB05
+FENOFIBRATE,UNSPECIFIED|UNSPECIFIED,160MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,38795,DrugsAndMedicine,Fenofibrate,Oral:,160 mg Tablet *Primary Health Care,C10AB05
+FENOFIBRATE,UNSPECIFIED|UNSPECIFIED,200MG|TABLET|PO,0.35,3,1,0.5,0.0,0.0,1,1,38795,DrugsAndMedicine,Fenofibrate,Oral:,200 mg Tablet *Primary Health Care,C10AB05 
+HEPARIN,UNSPECIFIED|UNSPECIFIED,"1000IU,5ML|VIAL|INJ.",0.35,1,1,0.5,0.0,0.0,1,1,27878,DrugsAndMedicine,Heparin,Inj.:,"1000 IU/mL (as Sodium) in 5 mL Vial (IV infusion, SC) (Bovine origin) (Unfractionated) ",C05BA03
+HEPARIN,UNSPECIFIED|UNSPECIFIED,"5000IU,5ML|VIAL|INJ.",0.35,2,1,0.5,0.0,0.0,1,1,27878,DrugsAndMedicine,Heparin,Inj.:,"5000 IU/mL (as Sodium) in 5 mL Vial (IV infusion, SC) (Bovine origin) (Unfractionated) ",C05BA03
+MEFENAMIC ACID,UNSPECIFIED|UNSPECIFIED,"250MG|CAPSULE,TABLET|PO",0.35,1,1,0.5,0.0,0.0,1,1,23712,DrugsAndMedicine,Mefenamic Acid,Oral:,250 mg Tablet /Capsule *Primary Health Care,M01AG01 
+MEFENAMIC ACID,UNSPECIFIED|UNSPECIFIED,"500MG|CAPSULE,TABLET|PO",0.35,2,1,0.5,0.0,0.0,1,1,23712,DrugsAndMedicine,Mefenamic Acid,Oral:,500 mg Tablet /Capsule *Primary Health Care,M01AG01 
+TETANUS TOXOID,UNSPECIFIED|UNSPECIFIED,0.5ML|AMPUL|INJ.,0.35,1,1,0.5,0.0,0.0,1,1,27591,DrugsAndMedicine,Tetanus Toxoid,Inj.:,in 0.5 mL Ampul (IM) *Primary Health Care,J07AM01 
+TETANUS TOXOID,UNSPECIFIED|UNSPECIFIED,10ML|VIAL|INJ.,0.35,2,1,0.5,0.0,0.0,1,1,27591,DrugsAndMedicine,Tetanus Toxoid,Inj.:,in 10 mL Vial (IM) *Primary Health Care,J07AM01 
+MIDAZOLAM,UNSPECIFIED|UNSPECIFIED,15MG|TABLET|INJ.,0.35,1,1,0.5,0.0,0.0,1,1,22931,DrugsAndMedicine,Midazolam,Inj.:,15 mg Tablet ,N05CD08
+MIDAZOLAM,UNSPECIFIED|UNSPECIFIED,"1MG,5ML|AMPUL|INJ.",0.35,2,1,0.5,0.0,0.0,1,1,22931,DrugsAndMedicine,Midazolam,Inj.:,"1 mg/mL in 5 mL Ampul (IM, IV) ",N05CD08
+MIDAZOLAM,UNSPECIFIED|UNSPECIFIED,"1ML,5MG|AMPUL|INJ.",0.35,3,1,0.5,0.0,0.0,1,1,22931,DrugsAndMedicine,Midazolam,Inj.:,"5 mg/mL in 1 mL Ampul (IM, IV) ",N05CD08
+IOHEXOL,UNSPECIFIED|UNSPECIFIED,"300MG,50ML|VIAL|INJ.",0.35,1,1,0.5,0.0,0.0,1,1,22932,DrugsAndMedicine,Iohexol,Inj.:,300 mg iodine/mL in 50 mL Vial (Intravascular and other parenteral routes as appropriate) ,V08AB02
+IOHEXOL,UNSPECIFIED|UNSPECIFIED,"100ML,300MG|VIAL|INJ.",0.35,2,1,0.5,0.0,0.0,1,1,22932,DrugsAndMedicine,Iohexol,Inj.:,300 mg iodine/mL in 100 mL Vial (Intravascular and other parenteral routes as appropriate) ,V08AB02
+IOHEXOL,UNSPECIFIED|UNSPECIFIED,"350MG,50ML|VIAL|INJ.",0.35,3,1,0.5,0.0,0.0,1,1,22932,DrugsAndMedicine,Iohexol,Inj.:,350 mg iodine/mL in 50 mL Vial (Intravascular and other parenteral routes as appropriate) ,V08AB02
+RIFAXIMIN,UNSPECIFIED|UNSPECIFIED,200MG|TABLET|PO,0.35,1,0,0.5,0.0,0.0,1,1,23985,DrugsAndMedicine,Rifaximin,Oral:,200 mg Tablet ,A07AA11 
+TRANEXAMIC ACID,UNSPECIFIED|UNSPECIFIED,250MG|CAPSULE|PO,0.35,1,1,0.5,0.0,0.0,1,1,15373,DrugsAndMedicine,Tranexamic Acid,Oral:,250 mg Capsule *Primary Health Care,B02AA02 
+TRANEXAMIC ACID,UNSPECIFIED|UNSPECIFIED,500MG|CAPSULE|PO,0.35,2,1,0.5,0.0,0.0,1,1,15373,DrugsAndMedicine,Tranexamic Acid,Oral:,500 mg Capsule *Primary Health Care,B02AA02 
+TRANEXAMIC ACID,UNSPECIFIED|UNSPECIFIED,500MG|TABLET|PO,0.35,3,1,0.5,0.0,0.0,1,1,15373,DrugsAndMedicine,Tranexamic Acid,Oral:,500 mg Tablet ,B02AA02 
+MEFENAMIC ACID,UNSPECIFIED|UNSPECIFIED,"250MG|CAPSULE,TABLET|PO",0.35,1,1,0.5,0.0,0.0,1,1,25920,DrugsAndMedicine,Mefenamic Acid,Oral:,250 mg Tablet /Capsule *Primary Health Care,M01AG01 
+MEFENAMIC ACID,UNSPECIFIED|UNSPECIFIED,"500MG|CAPSULE,TABLET|PO",0.35,2,1,0.5,0.0,0.0,1,1,25920,DrugsAndMedicine,Mefenamic Acid,Oral:,500 mg Tablet /Capsule *Primary Health Care,M01AG01 
+LEVOFLOXACIN,UNSPECIFIED|UNSPECIFIED,250MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,25477,DrugsAndMedicine,Levofloxacin,Oral:,250 mg Tablet ,J01MA12 
+LEVOFLOXACIN,UNSPECIFIED|UNSPECIFIED,500MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,25477,DrugsAndMedicine,Levofloxacin,Oral:,500 mg Tablet ,J01MA12 
+LEVOFLOXACIN,UNSPECIFIED|UNSPECIFIED,750MG|TABLET|PO,0.35,3,1,0.5,0.0,0.0,1,1,25477,DrugsAndMedicine,Levofloxacin,Oral:,750 mg Tablet ,J01MA12 
+POTASSIUM CHLORIDE,UNSPECIFIED|UNSPECIFIED,750MG|UNSPECIFIED|PO,0.55,1,0,0.5,1.0,0.0,1,1,25478,DrugsAndMedicine,Potassium Chloride,Oral:,750 mg (equiv. to approximately 10 mEq potassium) Durules *Primary Health Care,A12BA01 
+POTASSIUM CHLORIDE,UNSPECIFIED|UNSPECIFIED,600MG|TABLET|PO,0.35,2,0,0.5,0.0,0.0,1,1,25478,DrugsAndMedicine,Potassium Chloride,Oral:,600 mg Tablet *Primary Health Care,A12BA01 
+POTASSIUM CHLORIDE,UNSPECIFIED|UNSPECIFIED,"1MMOL,30ML|SYRUP|INJ.",0.35,3,0,0.5,0.0,0.0,1,1,25478,DrugsAndMedicine,Potassium Chloride,Inj.:,1 mmol/mL (as Chloride) Syrup in 30 mL *Primary Health Care,A12BA01 
+CLARITHROMYCIN,UNSPECIFIED|UNSPECIFIED,250MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,25480,DrugsAndMedicine,Clarithromycin,Oral:,250 mg Tablet (Base) *Primary Health Care,J01FA09
+CLARITHROMYCIN,UNSPECIFIED|UNSPECIFIED,500MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,25480,DrugsAndMedicine,Clarithromycin,Oral:,500 mg Tablet (Base) *Primary Health Care,J01FA09
+CLARITHROMYCIN,UNSPECIFIED|UNSPECIFIED,"125MG/5ML,50ML|SUSPENSION|PO",0.35,3,1,0.5,0.0,0.0,1,1,25480,DrugsAndMedicine,Clarithromycin,Oral:,125 mg/5 mL Granules/Powder for suspension in 50 mL *Primary Health Care,J01FA09
+DEXAMETHASONE,UNSPECIFIED|UNSPECIFIED,500MCG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,23287,DrugsAndMedicine,Dexamethasone,Oral:,500 mcg Tablet *Primary Health Care,S02BA06
+DEXAMETHASONE,UNSPECIFIED|UNSPECIFIED,750MCG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,23287,DrugsAndMedicine,Dexamethasone,Oral:,750 mcg Tablet ,S02BA06
+DEXAMETHASONE,UNSPECIFIED|UNSPECIFIED,3MG|TABLET|PO,0.35,3,1,0.5,0.0,0.0,1,1,23287,DrugsAndMedicine,Dexamethasone,Oral:,3 mg Tablet ,S02BA06
+IRON SUCROSE,UNSPECIFIED|UNSPECIFIED,"20MG,5ML|AMPUL|INJ.",0.35,1,0,0.5,0.0,0.0,1,1,17301,DrugsAndMedicine,Iron sucrose,Inj.:,20 mg/mL in 5 mL Ampul ,B03AE04
+LEVETIRACETAM,UNSPECIFIED|UNSPECIFIED,250MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,26738,DrugsAndMedicine,Levetiracetam,Oral:,250 mg Film-coated tablet ,N03AX14 
+LEVETIRACETAM,UNSPECIFIED|UNSPECIFIED,500MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,26738,DrugsAndMedicine,Levetiracetam,Oral:,500 mg Film-coated tablet ,N03AX14 
+LEVETIRACETAM,UNSPECIFIED|UNSPECIFIED,750MG|TABLET|PO,0.35,3,1,0.5,0.0,0.0,1,1,26738,DrugsAndMedicine,Levetiracetam,Oral:,750 mg Film-coated tablet ,N03AX14 
+OMEPRAZOLE,UNSPECIFIED|UNSPECIFIED,20MG|CAPSULE|PO,0.35,1,1,0.5,0.0,0.0,1,1,52049,DrugsAndMedicine,Omeprazole,Oral:,20 mg Capsule *Primary Health Care,A02BC01 
+OMEPRAZOLE,UNSPECIFIED|UNSPECIFIED,40MG|CAPSULE|PO,0.35,2,1,0.5,0.0,0.0,1,1,52049,DrugsAndMedicine,Omeprazole,Oral:,40 mg Capsule *Primary Health Care,A02BC01 
+OMEPRAZOLE,UNSPECIFIED|UNSPECIFIED,"10ML,40MG|AMPUL,VIAL|INJ.",0.35,3,1,0.5,0.0,0.0,1,1,52049,DrugsAndMedicine,Omeprazole,Inj.:,40 mg Powder + 10 mL solvent (Ampule/Vial) (IV) ,A02BC01 
+CARVEDILOL,UNSPECIFIED|UNSPECIFIED,6.25MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,45740,DrugsAndMedicine,Carvedilol,Oral:,6.25 mg Tablet ,C07AG02
+CARVEDILOL,UNSPECIFIED|UNSPECIFIED,25MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,45740,DrugsAndMedicine,Carvedilol,Oral:,25 mg Tablet ,C07AG02
+OFLOXACIN,UNSPECIFIED|UNSPECIFIED,200MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,32723,DrugsAndMedicine,Ofloxacin,Oral:,200 mg Tablet ,J01MA01 
+OFLOXACIN,UNSPECIFIED|UNSPECIFIED,"0.3%,5ML|SOLUTION|OPHTHALMIC",0.35,2,1,0.5,0.0,0.0,1,1,32723,DrugsAndMedicine,Ofloxacin,Ophthalmic:,0.3% Ophthalmic drop solution in 5 mL ,J01MA01 
+OFLOXACIN,UNSPECIFIED|UNSPECIFIED,"0.3%,5ML|SOLUTION|OTIC",0.35,3,1,0.5,0.0,0.0,1,1,32723,DrugsAndMedicine,Ofloxacin,Otic:,0.3% Otic drop solution in 5 mL *Primary Health Care,J01MA01 
+MULTIVITAMINS,UNSPECIFIED|UNSPECIFIED,"0.4MCG,0.4MG,0.6MG,10MCG,1ML,30MG,380MCG,400IU,4MG,5MG,65MCG|DROPS|PO",0.35,1,1,0.5,0.0,0.0,1,1,39576,DrugsAndMedicine,Multivitamins,Oral:,"per 1 mL, (Infants)(Drops) composed of:
+Vitamin A = 325 - 380 mcg
+Vitamin B1 = 0.2 - 0.4 mg
+Vitamin B2 = 0.3 - 0.4 mg
+Vitamin B6 = 0.3 - 0.6 mg
+Vitamin B12 = 0.3 - 0.4 mcg
+Vitamin C = 30 mg
+Vitamin D = 200 - 400 IU (5 - 10 mcg)
+Vitamin E = 3 - 4 mg
+Folic acid = 20 - 65 mcg
+Niacin = 1 - 5 mg *Primary Health Care",A11AB
+MULTIVITAMINS,UNSPECIFIED|UNSPECIFIED,"0.9MG,1.0MG,1.6MG,10MCG,18MG,3.0MCG,300MCG,400IU,400MCG,55MG,5ML,7MG|SYRUP|PO",0.35,2,1,0.5,0.0,0.0,1,1,39576,DrugsAndMedicine,Multivitamins,Oral:,"per 5 mL, (Children)(Syrup) composed of:
+Vitamin A = 350 - 400 mcg
+Vitamin B1 = 0.5 - 1.0 mg
+Vitamin B2 = 0.7 - 0.9 mg
+Vitamin B6 = 0.9 - 1.6 mg
+Vitamin B12 = 0.9 - 3.0 mcg
+Vitamin C = 35 - 55 mg
+Vitamin D = 200 - 400 IU (5 - 10 mcg)
+Vitamin E = 5 - 7 mg
+Folic acid = 40 - 300 mcg
+Niacin = 5 - 18 mg *Primary Health Care",A11AB
+MULTIVITAMINS,UNSPECIFIED|UNSPECIFIED,"1.3MG,1.7MG,10MCG,10MG,2.0MG,23MG,2500IU,30IU,400IU,400MCG,6.0MCG,700MCG,80MG|CAPSULE,TABLET|PO",0.35,3,1,0.5,0.0,0.0,1,1,39576,DrugsAndMedicine,Multivitamins,Oral:,"Tablet/Capsule (Adult) composed of:
+Vitamin A = 600 - 700 mcg (2000 - 2500 IU)
+Vitamin B1 = 1.3 - 1.7 mg
+Vitamin B2 = 0.7 - 1.3 mg
+Vitamin B6 = 1.6 - 2.0 mg
+Vitamin B12 = 2.0 - 6.0 mcg
+Vitamin C = 60 - 80 mg
+Vitamin D =  400 IU (10 mcg)
+Vitamin E = 6 - 10 mg (15 - 30 IU)
+Folic acid = 400 mcg
+Niacin = 13 - 23 mg *Primary Health Care",A11AB
+VITAMIN B1 + B6 + B12,UNSPECIFIED|UNSPECIFIED,"100MG,50MCG,5MG|CAPSULE,TABLET|PO",0.35,1,1,0.5,0.0,0.0,1,1,51393,DrugsAndMedicine,Vitamin B1  + B6 + B12,Oral:,100 mg + 5 mg + 50 mcg Tablet/Capsule *Primary Health Care,A11DB
+VITAMIN B1 + B6 + B12,UNSPECIFIED|UNSPECIFIED,"0.6ML,10MG,5MCG,5MG|DROPS|PO",0.35,2,1,0.5,0.0,0.0,1,1,51393,DrugsAndMedicine,Vitamin B1  + B6 + B12,Oral:,"10 mg + 5 mg + 5 mcg per 0.6 mL drops, Drops ",A11DB
+VITAMIN B1 + B6 + B12,UNSPECIFIED|UNSPECIFIED,"100MG,1MG,3ML|AMPUL|INJ.",0.35,3,1,0.5,0.0,0.0,1,1,51393,DrugsAndMedicine,Vitamin B1  + B6 + B12,Inj.:,"100 mg + 100 mg + 1 mg per 3 mL, Ampule (IV) ",A11DB
+DIAZEPAM,UNSPECIFIED|UNSPECIFIED,5MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,44823,DrugsAndMedicine,Diazepam,Oral:,5 mg Tablet *Primary Health Care,N05BA01
+DIAZEPAM,UNSPECIFIED|UNSPECIFIED,"2ML,5MG|AMPUL|INJ.",0.35,2,1,0.5,0.0,0.0,1,1,44823,DrugsAndMedicine,Diazepam,Inj.:,"5 mg/mL in 2 mL Ampul (IM,IV) *Primary Health Care",N05BA01
+DIGOXIN,UNSPECIFIED|UNSPECIFIED,250MCG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,46824,DrugsAndMedicine,Digoxin,Oral:,250 mcg Tablet *Primary Health Care,C01AA05
+DIGOXIN,UNSPECIFIED|UNSPECIFIED,"50MCG,60ML|ELIXIR|PO",0.35,2,1,0.5,0.0,0.0,1,1,46824,DrugsAndMedicine,Digoxin,Oral:,50 mcg/mL Elixir in 60 mL ,C01AA05
+DIGOXIN,UNSPECIFIED|UNSPECIFIED,"250MCG,2ML|AMPUL|INJ.",0.35,3,1,0.5,0.0,0.0,1,1,46824,DrugsAndMedicine,Digoxin,Inj.:,"250 mcg/mL in 2 mL Ampul (IM, IV) ",C01AA05
+MUPIROCIN,UNSPECIFIED|UNSPECIFIED,"2%,5G|CREAM,SACHET|TOP",0.35,1,1,0.5,0.0,0.0,1,1,46832,DrugsAndMedicine,Mupirocin,Topical:,2% Cream in 5 g Sachet *Primary Health Care,D06AX09 
+MUPIROCIN,UNSPECIFIED|UNSPECIFIED,"15G,2%|CREAM|TOP",0.35,2,1,0.5,0.0,0.0,1,1,46832,DrugsAndMedicine,Mupirocin,Topical:,2% Cream in 15 g Tube *Primary Health Care,D06AX09 
+MUPIROCIN,UNSPECIFIED|UNSPECIFIED,"2%,5G|OINTMENT|TOP",0.35,3,1,0.5,0.0,0.0,1,1,46832,DrugsAndMedicine,Mupirocin,Topical:,2% Ointment in 5 g Tube *Primary Health Care,D06AX09 
+LEVOFLOXACIN,UNSPECIFIED|UNSPECIFIED,250MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,45632,DrugsAndMedicine,Levofloxacin,Oral:,250 mg Tablet ,J01MA12 
+LEVOFLOXACIN,UNSPECIFIED|UNSPECIFIED,500MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,45632,DrugsAndMedicine,Levofloxacin,Oral:,500 mg Tablet ,J01MA12 
+LEVOFLOXACIN,UNSPECIFIED|UNSPECIFIED,750MG|TABLET|PO,0.35,3,1,0.5,0.0,0.0,1,1,45632,DrugsAndMedicine,Levofloxacin,Oral:,750 mg Tablet ,J01MA12 
+SILVER SULFADIAZINE,UNSPECIFIED|UNSPECIFIED,"1%,15G|CREAM|TOP",0.35,1,1,0.5,0.0,0.0,1,1,54966,DrugsAndMedicine,Silver Sulfadiazine,Topical:,1% Cream in 15 g Tube *Primary Health Care,D06BA01 
+SILVER SULFADIAZINE,UNSPECIFIED|UNSPECIFIED,"1%,25G|CREAM|TOP",0.35,2,1,0.5,0.0,0.0,1,1,54966,DrugsAndMedicine,Silver Sulfadiazine,Topical:,1% Cream in 25 g Tube *Primary Health Care,D06BA01 
+SILVER SULFADIAZINE,UNSPECIFIED|UNSPECIFIED,500G|CREAM|TOP,0.35,3,1,0.5,0.0,0.0,1,1,54966,DrugsAndMedicine,Silver Sulfadiazine,Topical:,Cream in 500 g Jar (Micronized) *Primary Health Care,D06BA01 
+INSULIN GLARGINE,UNSPECIFIED|UNSPECIFIED,"100IU,3ML|UNSPECIFIED|SC",0.55,1,0,0.5,1.0,0.0,1,1,64741,DrugsAndMedicine,Insulin Glargine,SC:,100 IU/mL in 3 mL Pre-filled pen ,A10AE04 
+INSULIN GLARGINE,UNSPECIFIED|UNSPECIFIED,"100IU,10ML|VIAL|SC",0.35,2,0,0.5,0.0,0.0,1,1,64741,DrugsAndMedicine,Insulin Glargine,SC:,100 IU/mL in 10 mL Vial ,A10AE04 
+PARACETAMOL,UNSPECIFIED|UNSPECIFIED,300MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,62861,DrugsAndMedicine,Paracetamol,Oral:,300 mg Tablet *Primary Health Care,N02BE01
+PARACETAMOL,UNSPECIFIED|UNSPECIFIED,500MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,62861,DrugsAndMedicine,Paracetamol,Oral:,500 mg Tablet *Primary Health Care,N02BE01
+PARACETAMOL,UNSPECIFIED|UNSPECIFIED,"100MG,15ML|DROPS|PO",0.35,3,1,0.5,0.0,0.0,1,1,62861,DrugsAndMedicine,Paracetamol,Oral:,100 mg/mL Drops in 15 mL (Alcohol-free) *Primary Health Care,N02BE01
+MOXIFLOXACIN,UNSPECIFIED|UNSPECIFIED,400MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,63369,DrugsAndMedicine,Moxifloxacin,Oral:,400 mg Film-coated tablet ,J01MA14 
+MOXIFLOXACIN,UNSPECIFIED|UNSPECIFIED,"0.5%,5MG,5ML|SOLUTION|OPHTHALMIC",0.35,2,1,0.5,0.0,0.0,1,1,63369,DrugsAndMedicine,Moxifloxacin,Ophthalmic:,5 mg/mL (0.5% w/v) (as Hydrochloride) Sterile Ophthalmic Solution in 5 mL ,J01MA14 
+NEPAFENAC,UNSPECIFIED|UNSPECIFIED,"1MG,5ML|SUSPENSION|OPHTHALMIC",0.35,1,0,0.5,0.0,0.0,1,1,54595,DrugsAndMedicine,Nepafenac,Ophthalmic:,1 mg/mL Ophthalmic drop suspension in 5 mL ,S01BC10 
+ASPIRIN,UNSPECIFIED|UNSPECIFIED,80MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,64768,DrugsAndMedicine,Aspirin,Oral:,80 mg Tablet *Primary Health Care,B01AC06
+ASPIRIN,UNSPECIFIED|UNSPECIFIED,100MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,64768,DrugsAndMedicine,Aspirin,Oral:,100 mg Tablet *Primary Health Care,B01AC06
+ASPIRIN,UNSPECIFIED|UNSPECIFIED,300MG|TABLET|PO,0.35,3,1,0.5,0.0,0.0,1,1,64768,DrugsAndMedicine,Aspirin,Oral:,300 mg Tablet ,B01AC06
+MEFENAMIC ACID,UNSPECIFIED|UNSPECIFIED,"250MG|CAPSULE,TABLET|PO",0.35,1,1,0.5,0.0,0.0,1,1,57845,DrugsAndMedicine,Mefenamic Acid,Oral:,250 mg Tablet /Capsule *Primary Health Care,M01AG01 
+MEFENAMIC ACID,UNSPECIFIED|UNSPECIFIED,"500MG|CAPSULE,TABLET|PO",0.35,2,1,0.5,0.0,0.0,1,1,57845,DrugsAndMedicine,Mefenamic Acid,Oral:,500 mg Tablet /Capsule *Primary Health Care,M01AG01 
+OXYMETAZOLINE,UNSPECIFIED|UNSPECIFIED,"0.025%,10ML|SOLUTION,SPRAY|IN",0.35,1,1,0.5,0.0,0.0,1,1,71374,DrugsAndMedicine,Oxymetazoline,Nasal:,0.025% (as Hydrochloride) Solution in 10 mL Spray ,R01AA05 
+OXYMETAZOLINE,UNSPECIFIED|UNSPECIFIED,"0.05%,10ML|SOLUTION|IN",0.35,2,1,0.5,0.0,0.0,1,1,71374,DrugsAndMedicine,Oxymetazoline,Nasal:,0.05% (as Hydrochloride) Solution in 10 mL ,R01AA05 
+OXYMETAZOLINE,UNSPECIFIED|UNSPECIFIED,"0.05%,15ML|SOLUTION|IN",0.35,3,1,0.5,0.0,0.0,1,1,71374,DrugsAndMedicine,Oxymetazoline,Nasal:,0.05% (as Hydrochloride) Solution in 15 mL ,R01AA05 
+GLICLAZIDE,UNSPECIFIED|UNSPECIFIED,30MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,75975,DrugsAndMedicine,Gliclazide,Oral:,30 mg Modified Release (MR) tablet *Primary Health Care,A10BB09
+GLICLAZIDE,UNSPECIFIED|UNSPECIFIED,60MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,75975,DrugsAndMedicine,Gliclazide,Oral:,60 mg Modified Release (MR) tablet ,A10BB09
+GLICLAZIDE,UNSPECIFIED|UNSPECIFIED,80MG|TABLET|PO,0.35,3,1,0.5,0.0,0.0,1,1,75975,DrugsAndMedicine,Gliclazide,Oral:,80 mg Tablet *Primary Health Care,A10BB09
+FOLIC ACID,UNSPECIFIED|UNSPECIFIED,"400MCG|CAPSULE,TABLET|PO",0.35,1,1,0.5,0.0,0.0,1,1,69228,DrugsAndMedicine,Folic Acid,Oral:,400 mcg Tablet/Capsule *Primary Health Care,B03BB01
+FOLIC ACID,UNSPECIFIED|UNSPECIFIED,"800MCG|CAPSULE,TABLET|PO",0.35,2,1,0.5,0.0,0.0,1,1,69228,DrugsAndMedicine,Folic Acid,Oral:,800 mcg Tablet/Capsule *Primary Health Care,B03BB01
+FOLIC ACID,UNSPECIFIED|UNSPECIFIED,"1MG|CAPSULE,TABLET|PO",0.35,3,1,0.5,0.0,0.0,1,1,69228,DrugsAndMedicine,Folic Acid,Oral:,1 mg Tablet/Capsule *Primary Health Care,B03BB01
+PARACETAMOL,UNSPECIFIED|UNSPECIFIED,300MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,68871,DrugsAndMedicine,Paracetamol,Oral:,300 mg Tablet *Primary Health Care,N02BE01
+PARACETAMOL,UNSPECIFIED|UNSPECIFIED,500MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,68871,DrugsAndMedicine,Paracetamol,Oral:,500 mg Tablet *Primary Health Care,N02BE01
+PARACETAMOL,UNSPECIFIED|UNSPECIFIED,"100MG,15ML|DROPS|PO",0.35,3,1,0.5,0.0,0.0,1,1,68871,DrugsAndMedicine,Paracetamol,Oral:,100 mg/mL Drops in 15 mL (Alcohol-free) *Primary Health Care,N02BE01
+OMEPRAZOLE,UNSPECIFIED|UNSPECIFIED,20MG|CAPSULE|PO,0.35,1,1,0.5,0.0,0.0,1,1,68895,DrugsAndMedicine,Omeprazole,Oral:,20 mg Capsule *Primary Health Care,A02BC01 
+OMEPRAZOLE,UNSPECIFIED|UNSPECIFIED,40MG|CAPSULE|PO,0.35,2,1,0.5,0.0,0.0,1,1,68895,DrugsAndMedicine,Omeprazole,Oral:,40 mg Capsule *Primary Health Care,A02BC01 
+OMEPRAZOLE,UNSPECIFIED|UNSPECIFIED,"10ML,40MG|AMPUL,VIAL|INJ.",0.35,3,1,0.5,0.0,0.0,1,1,68895,DrugsAndMedicine,Omeprazole,Inj.:,40 mg Powder + 10 mL solvent (Ampule/Vial) (IV) ,A02BC01 
+PILOCARPINE,UNSPECIFIED|UNSPECIFIED,"1%,10ML|SOLUTION|OPHTHALMIC",0.35,1,1,0.5,0.0,0.0,1,1,65455,DrugsAndMedicine,Pilocarpine,Ophthalmic:,1% (as Hydrochloride) Ophthalmic drop solution in 10 mL ,S01EB01 
+PILOCARPINE,UNSPECIFIED|UNSPECIFIED,"1%,15ML|SOLUTION|OPHTHALMIC",0.35,2,1,0.5,0.0,0.0,1,1,65455,DrugsAndMedicine,Pilocarpine,Ophthalmic:,1% (as Hydrochloride) Ophthalmic drop solution in 15 mL ,S01EB01 
+PILOCARPINE,UNSPECIFIED|UNSPECIFIED,"10ML,2%|SOLUTION|OPHTHALMIC",0.35,3,1,0.5,0.0,0.0,1,1,65455,DrugsAndMedicine,Pilocarpine,Ophthalmic:,2% (as Hydrochloride) Ophthalmic drop solution in 10 mL ,S01EB01 
+SODIUM CHLORIDE,UNSPECIFIED|UNSPECIFIED,20ML|VIAL|INJ.,0.35,1,1,0.5,0.0,0.0,1,1,77312,DrugsAndMedicine,Sodium Chloride,Inj.:,2.5 mEq/mL in 20 mL Vial *Primary Health Care,B05XA03 
+SODIUM CHLORIDE,UNSPECIFIED|UNSPECIFIED,50ML|VIAL|INJ.,0.35,2,1,0.5,0.0,0.0,1,1,77312,DrugsAndMedicine,Sodium Chloride,Inj.:,2.5 mEq/mL in 50 mL Vial *Primary Health Care,B05XA03 
+MULTIVITAMINS,UNSPECIFIED|UNSPECIFIED,"0.4MCG,0.4MG,0.6MG,10MCG,1ML,30MG,380MCG,400IU,4MG,5MG,65MCG|DROPS|PO",0.35,1,1,0.5,0.0,0.0,1,1,73950,DrugsAndMedicine,Multivitamins,Oral:,"per 1 mL, (Infants)(Drops) composed of:
+Vitamin A = 325 - 380 mcg
+Vitamin B1 = 0.2 - 0.4 mg
+Vitamin B2 = 0.3 - 0.4 mg
+Vitamin B6 = 0.3 - 0.6 mg
+Vitamin B12 = 0.3 - 0.4 mcg
+Vitamin C = 30 mg
+Vitamin D = 200 - 400 IU (5 - 10 mcg)
+Vitamin E = 3 - 4 mg
+Folic acid = 20 - 65 mcg
+Niacin = 1 - 5 mg *Primary Health Care",A11AB
+MULTIVITAMINS,UNSPECIFIED|UNSPECIFIED,"0.9MG,1.0MG,1.6MG,10MCG,18MG,3.0MCG,300MCG,400IU,400MCG,55MG,5ML,7MG|SYRUP|PO",0.35,2,1,0.5,0.0,0.0,1,1,73950,DrugsAndMedicine,Multivitamins,Oral:,"per 5 mL, (Children)(Syrup) composed of:
+Vitamin A = 350 - 400 mcg
+Vitamin B1 = 0.5 - 1.0 mg
+Vitamin B2 = 0.7 - 0.9 mg
+Vitamin B6 = 0.9 - 1.6 mg
+Vitamin B12 = 0.9 - 3.0 mcg
+Vitamin C = 35 - 55 mg
+Vitamin D = 200 - 400 IU (5 - 10 mcg)
+Vitamin E = 5 - 7 mg
+Folic acid = 40 - 300 mcg
+Niacin = 5 - 18 mg *Primary Health Care",A11AB
+MULTIVITAMINS,UNSPECIFIED|UNSPECIFIED,"1.3MG,1.7MG,10MCG,10MG,2.0MG,23MG,2500IU,30IU,400IU,400MCG,6.0MCG,700MCG,80MG|CAPSULE,TABLET|PO",0.35,3,1,0.5,0.0,0.0,1,1,73950,DrugsAndMedicine,Multivitamins,Oral:,"Tablet/Capsule (Adult) composed of:
+Vitamin A = 600 - 700 mcg (2000 - 2500 IU)
+Vitamin B1 = 1.3 - 1.7 mg
+Vitamin B2 = 0.7 - 1.3 mg
+Vitamin B6 = 1.6 - 2.0 mg
+Vitamin B12 = 2.0 - 6.0 mcg
+Vitamin C = 60 - 80 mg
+Vitamin D =  400 IU (10 mcg)
+Vitamin E = 6 - 10 mg (15 - 30 IU)
+Folic acid = 400 mcg
+Niacin = 13 - 23 mg *Primary Health Care",A11AB
+NALBUPHINE,UNSPECIFIED|UNSPECIFIED,"10MG,1ML|AMPUL|INJ.",0.35,1,0,0.5,0.0,0.0,1,1,74433,DrugsAndMedicine,Nalbuphine,Inj.:,10 mg/mL (as Hydrochloride) in 1 mL Ampul ,N02AF02
+CLONIDINE,UNSPECIFIED|UNSPECIFIED,75MCG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,77987,DrugsAndMedicine,Clonidine,Oral:,75 mcg (as Hydrochloride) Tablet *Primary Health Care,C02AC01
+CLONIDINE,UNSPECIFIED|UNSPECIFIED,150MCG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,77987,DrugsAndMedicine,Clonidine,Oral:,150 mcg (as Hydrochloride) Tablet ,C02AC01
+CLONIDINE,UNSPECIFIED|UNSPECIFIED,"150MCG,1ML|AMPUL",0.35,3,1,0.5,0.0,0.0,1,1,77987,DrugsAndMedicine,Clonidine,,150 mcg/mL (as Hydrochloride) in 1 mL Ampul (IV) ,C02AC01
+NICARDIPINE,UNSPECIFIED|UNSPECIFIED,"1MG,2ML|AMPUL|INJ.",0.35,1,1,0.5,0.0,0.0,1,1,91024,DrugsAndMedicine,Nicardipine,Inj.:,1 mg/mL (as Hydrochloride) in 2 mL Ampul (IV) *Primary Health Care,C08CA04
+NICARDIPINE,UNSPECIFIED|UNSPECIFIED,"10ML,1MG|AMPUL|INJ.",0.35,2,1,0.5,0.0,0.0,1,1,91024,DrugsAndMedicine,Nicardipine,Inj.:,1 mg/mL (as Hydrochloride) in 10 mL Ampul (IV) *Primary Health Care,C08CA04
+EPERISONE,UNSPECIFIED|UNSPECIFIED,50MG|TABLET|PO,0.35,1,0,0.5,0.0,0.0,1,1,79549,DrugsAndMedicine,Eperisone hydrochloride,Oral:,50 mg Tablet ,M03BX09
+ERYTHROMYCIN,UNSPECIFIED|UNSPECIFIED,500MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,79294,DrugsAndMedicine,Erythromycin,Oral:,500 mg (as Stearate) Tablet *Primary Health Care,J01FA01
+ERYTHROMYCIN,UNSPECIFIED|UNSPECIFIED,"200MG/5ML,60ML|SUSPENSION|PO",0.35,2,1,0.5,0.0,0.0,1,1,79294,DrugsAndMedicine,Erythromycin,Oral:,200 mg/5 mL (as Ethyl succinate) Granules/Powder for suspension in 60 mL *Primary Health Care,J01FA01
+ERYTHROMYCIN,UNSPECIFIED|UNSPECIFIED,"400MG/5ML,50ML|SUSPENSION|PO",0.35,3,1,0.5,0.0,0.0,1,1,79294,DrugsAndMedicine,Erythromycin,Oral:,400 mg/5 mL (as Ethyl succinate) Granules/Powder for suspension in 50 mL ,J01FA01
+OMEPRAZOLE,UNSPECIFIED|UNSPECIFIED,20MG|CAPSULE|PO,0.35,1,1,0.5,0.0,0.0,1,1,97244,DrugsAndMedicine,Omeprazole,Oral:,20 mg Capsule *Primary Health Care,A02BC01 
+OMEPRAZOLE,UNSPECIFIED|UNSPECIFIED,40MG|CAPSULE|PO,0.35,2,1,0.5,0.0,0.0,1,1,97244,DrugsAndMedicine,Omeprazole,Oral:,40 mg Capsule *Primary Health Care,A02BC01 
+OMEPRAZOLE,UNSPECIFIED|UNSPECIFIED,"10ML,40MG|AMPUL,VIAL|INJ.",0.35,3,1,0.5,0.0,0.0,1,1,97244,DrugsAndMedicine,Omeprazole,Inj.:,40 mg Powder + 10 mL solvent (Ampule/Vial) (IV) ,A02BC01 
+CELECOXIB,UNSPECIFIED|UNSPECIFIED,100MG|CAPSULE|PO,0.35,1,1,0.5,0.0,0.0,1,1,93776,DrugsAndMedicine,Celecoxib,Oral:,100 mg Capsule *Primary Health Care,M01AH01
+CELECOXIB,UNSPECIFIED|UNSPECIFIED,200MG|CAPSULE|PO,0.35,2,1,0.5,0.0,0.0,1,1,93776,DrugsAndMedicine,Celecoxib,Oral:,200 mg Capsule *Primary Health Care,M01AH01
+CELECOXIB,UNSPECIFIED|UNSPECIFIED,400MG|CAPSULE|PO,0.35,3,1,0.5,0.0,0.0,1,1,93776,DrugsAndMedicine,Celecoxib,Oral:,400 mg Capsule *Primary Health Care,M01AH01
+BISACODYL,UNSPECIFIED|UNSPECIFIED,5MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,81528,DrugsAndMedicine,Bisacodyl,Oral:,5 mg Tablet *Primary Health Care,A06AG02
+BISACODYL,UNSPECIFIED|UNSPECIFIED,5MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,81528,DrugsAndMedicine,Bisacodyl,Oral:,5 mg Modified Release (MR) tablet *Primary Health Care,A06AG02
+BISACODYL,UNSPECIFIED|UNSPECIFIED,5MG|SUPPOSITORY|RECTAL,0.35,3,1,0.5,0.0,0.0,1,1,81528,DrugsAndMedicine,Bisacodyl,Rectal:,5 mg Suppository (children) *Primary Health Care,A06AG02
+INSULIN GLARGINE,UNSPECIFIED|UNSPECIFIED,"100IU,3ML|UNSPECIFIED|SC",0.55,1,0,0.5,1.0,0.0,1,1,102387,DrugsAndMedicine,Insulin Glargine,SC:,100 IU/mL in 3 mL Pre-filled pen ,A10AE04 
+INSULIN GLARGINE,UNSPECIFIED|UNSPECIFIED,"100IU,10ML|VIAL|SC",0.35,2,0,0.5,0.0,0.0,1,1,102387,DrugsAndMedicine,Insulin Glargine,SC:,100 IU/mL in 10 mL Vial ,A10AE04 
+HEPARIN,UNSPECIFIED|UNSPECIFIED,"1000IU,5ML|VIAL|INJ.",0.35,1,1,0.5,0.0,0.0,1,1,85776,DrugsAndMedicine,Heparin,Inj.:,"1000 IU/mL (as Sodium) in 5 mL Vial (IV infusion, SC) (Bovine origin) (Unfractionated) ",C05BA03
+HEPARIN,UNSPECIFIED|UNSPECIFIED,"5000IU,5ML|VIAL|INJ.",0.35,2,1,0.5,0.0,0.0,1,1,85776,DrugsAndMedicine,Heparin,Inj.:,"5000 IU/mL (as Sodium) in 5 mL Vial (IV infusion, SC) (Bovine origin) (Unfractionated) ",C05BA03
+POTASSIUM CHLORIDE,UNSPECIFIED|UNSPECIFIED,750MG|UNSPECIFIED|PO,0.55,1,0,0.5,1.0,0.0,1,1,102416,DrugsAndMedicine,Potassium Chloride,Oral:,750 mg (equiv. to approximately 10 mEq potassium) Durules *Primary Health Care,A12BA01 
+POTASSIUM CHLORIDE,UNSPECIFIED|UNSPECIFIED,600MG|TABLET|PO,0.35,2,0,0.5,0.0,0.0,1,1,102416,DrugsAndMedicine,Potassium Chloride,Oral:,600 mg Tablet *Primary Health Care,A12BA01 
+POTASSIUM CHLORIDE,UNSPECIFIED|UNSPECIFIED,"1MMOL,30ML|SYRUP|INJ.",0.35,3,0,0.5,0.0,0.0,1,1,102416,DrugsAndMedicine,Potassium Chloride,Inj.:,1 mmol/mL (as Chloride) Syrup in 30 mL *Primary Health Care,A12BA01 
+CLARITHROMYCIN,UNSPECIFIED|UNSPECIFIED,250MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,78560,DrugsAndMedicine,Clarithromycin,Oral:,250 mg Tablet (Base) *Primary Health Care,J01FA09
+CLARITHROMYCIN,UNSPECIFIED|UNSPECIFIED,500MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,78560,DrugsAndMedicine,Clarithromycin,Oral:,500 mg Tablet (Base) *Primary Health Care,J01FA09
+CLARITHROMYCIN,UNSPECIFIED|UNSPECIFIED,"125MG/5ML,50ML|SUSPENSION|PO",0.35,3,1,0.5,0.0,0.0,1,1,78560,DrugsAndMedicine,Clarithromycin,Oral:,125 mg/5 mL Granules/Powder for suspension in 50 mL *Primary Health Care,J01FA09
+MEFENAMIC ACID,UNSPECIFIED|UNSPECIFIED,"250MG|CAPSULE,TABLET|PO",0.35,1,1,0.5,0.0,0.0,1,1,105039,DrugsAndMedicine,Mefenamic Acid,Oral:,250 mg Tablet /Capsule *Primary Health Care,M01AG01 
+MEFENAMIC ACID,UNSPECIFIED|UNSPECIFIED,"500MG|CAPSULE,TABLET|PO",0.35,2,1,0.5,0.0,0.0,1,1,105039,DrugsAndMedicine,Mefenamic Acid,Oral:,500 mg Tablet /Capsule *Primary Health Care,M01AG01 
+TRAMADOL,UNSPECIFIED|UNSPECIFIED,50MG|CAPSULE|PO,0.35,1,1,0.5,0.0,0.0,1,1,117467,DrugsAndMedicine,Tramadol,Oral:,50 mg (as Hydrochloride) Capsule *Primary Health Care,N02AX02 
+TRAMADOL,UNSPECIFIED|UNSPECIFIED,50MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,117467,DrugsAndMedicine,Tramadol,Oral:,50 mg (as Hydrochloride) Dispersible tablet ,N02AX02 
+TRAMADOL,UNSPECIFIED|UNSPECIFIED,100MG|TABLET|PO,0.35,3,1,0.5,0.0,0.0,1,1,117467,DrugsAndMedicine,Tramadol,Oral:,100 mg (as Hydrochloride) Modified Release (MR) tablet ,N02AX02 
+CLONIDINE,UNSPECIFIED|UNSPECIFIED,75MCG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,115736,DrugsAndMedicine,Clonidine,Oral:,75 mcg (as Hydrochloride) Tablet *Primary Health Care,C02AC01
+CLONIDINE,UNSPECIFIED|UNSPECIFIED,150MCG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,115736,DrugsAndMedicine,Clonidine,Oral:,150 mcg (as Hydrochloride) Tablet ,C02AC01
+CLONIDINE,UNSPECIFIED|UNSPECIFIED,"150MCG,1ML|AMPUL",0.35,3,1,0.5,0.0,0.0,1,1,115736,DrugsAndMedicine,Clonidine,,150 mcg/mL (as Hydrochloride) in 1 mL Ampul (IV) ,C02AC01
+SPIRONOLACTONE,UNSPECIFIED|UNSPECIFIED,25MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,117103,DrugsAndMedicine,Spironolactone,Oral:,25 mg Tablet (K-sparer) ,C03DA01 
+SPIRONOLACTONE,UNSPECIFIED|UNSPECIFIED,50MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,117103,DrugsAndMedicine,Spironolactone,Oral:,50 mg Tablet (K-sparer) ,C03DA01 
+SPIRONOLACTONE,UNSPECIFIED|UNSPECIFIED,100MG|TABLET|PO,0.35,3,1,0.5,0.0,0.0,1,1,117103,DrugsAndMedicine,Spironolactone,Oral:,100 mg Tablet (K-sparer) ,C03DA01 
+BUDESONIDE,UNSPECIFIED|UNSPECIFIED,100MCG|UNSPECIFIED|INH,0.55,1,1,0.5,1.0,0.0,1,1,109111,DrugsAndMedicine,Budesonide,Inhalation:,"100 mcg/dose x 200 doses, DPI with appropriate accompanying dispenser  ",R03BA02
+BUDESONIDE,UNSPECIFIED|UNSPECIFIED,200MCG|UNSPECIFIED|INH,0.55,2,1,0.5,1.0,0.0,1,1,109111,DrugsAndMedicine,Budesonide,Inhalation:,"200 mcg/dose x 100 doses, DPI with appropriate accompanying dispenser  ",R03BA02
+BUDESONIDE,UNSPECIFIED|UNSPECIFIED,200MCG|UNSPECIFIED|INH,0.55,3,1,0.5,1.0,0.0,1,1,109111,DrugsAndMedicine,Budesonide,Inhalation:,"200 mcg/dose x 120 actuations, MDI with appropriate accompanying dispenser  ",R03BA02
+EPOETIN ALFA (RECOMBINANT HUMAN ERYTHROPOIETIN),UNSPECIFIED|UNSPECIFIED,2000IU/0.5ML|PRE-FILLED SYRINGE|INJ.,0.35,1,1,0.5,0.0,0.0,1,1,111923,DrugsAndMedicine,Epoetin Alfa (Recombinant human erythropoietin),Inj.:,"2000 IU/0.5 mL Pre-filled syringe (IV,SC) ",B03XA01
+EPOETIN ALFA (RECOMBINANT HUMAN ERYTHROPOIETIN),UNSPECIFIED|UNSPECIFIED,4000IU/0.4ML|PRE-FILLED SYRINGE|INJ.,0.35,2,1,0.5,0.0,0.0,1,1,111923,DrugsAndMedicine,Epoetin Alfa (Recombinant human erythropoietin),Inj.:,"4000 IU/0.4 mL Pre-filled syringe (IV,SC) ",B03XA01
+EPOETIN ALFA (RECOMBINANT HUMAN ERYTHROPOIETIN),UNSPECIFIED|UNSPECIFIED,"1ML,4000IU|VIAL|INJ.",0.35,3,1,0.5,0.0,0.0,1,1,111923,DrugsAndMedicine,Epoetin Alfa (Recombinant human erythropoietin),Inj.:,"4000 IU/mL in 1 mL Vial (IV,SC) ",B03XA01
+TAMSULOSIN,UNSPECIFIED|UNSPECIFIED,200MCG|CAPSULE|PO,0.35,1,1,0.5,0.0,0.0,1,1,121915,DrugsAndMedicine,Tamsulosin,Oral:,200 mcg (as Hydrochloride) Capsule *Primary Health Care,G04CA02 
+TAMSULOSIN,UNSPECIFIED|UNSPECIFIED,200MCG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,121915,DrugsAndMedicine,Tamsulosin,Oral:,200 mcg Orally disintegrating tablet (ODT) ,G04CA02 
+TAMSULOSIN,UNSPECIFIED|UNSPECIFIED,400MCG|TABLET|PO,0.35,3,1,0.5,0.0,0.0,1,1,121915,DrugsAndMedicine,Tamsulosin,Oral:,400 mcg Prolonged release film coated tablet ,G04CA02 
+NICARDIPINE,UNSPECIFIED|UNSPECIFIED,"1MG,2ML|AMPUL|INJ.",0.35,1,1,0.5,0.0,0.0,1,1,115491,DrugsAndMedicine,Nicardipine,Inj.:,1 mg/mL (as Hydrochloride) in 2 mL Ampul (IV) *Primary Health Care,C08CA04
+NICARDIPINE,UNSPECIFIED|UNSPECIFIED,"10ML,1MG|AMPUL|INJ.",0.35,2,1,0.5,0.0,0.0,1,1,115491,DrugsAndMedicine,Nicardipine,Inj.:,1 mg/mL (as Hydrochloride) in 10 mL Ampul (IV) *Primary Health Care,C08CA04
+NICARDIPINE,UNSPECIFIED|UNSPECIFIED,"1MG,2ML|AMPUL|INJ.",0.35,1,1,0.5,0.0,0.0,1,1,115493,DrugsAndMedicine,Nicardipine,Inj.:,1 mg/mL (as Hydrochloride) in 2 mL Ampul (IV) *Primary Health Care,C08CA04
+NICARDIPINE,UNSPECIFIED|UNSPECIFIED,"10ML,1MG|AMPUL|INJ.",0.35,2,1,0.5,0.0,0.0,1,1,115493,DrugsAndMedicine,Nicardipine,Inj.:,1 mg/mL (as Hydrochloride) in 10 mL Ampul (IV) *Primary Health Care,C08CA04
+LORATADINE,UNSPECIFIED|UNSPECIFIED,10MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,121837,DrugsAndMedicine,Loratadine,Oral:,10 mg Tablet/Film-coated tablet *Primary Health Care,R06AX13
+LORATADINE,UNSPECIFIED|UNSPECIFIED,"30ML,5MG/5ML|SYRUP|PO",0.35,2,1,0.5,0.0,0.0,1,1,121837,DrugsAndMedicine,Loratadine,Oral:,5 mg/5 mL Syrup in 30 mL *Primary Health Care,R06AX13
+OMEPRAZOLE,UNSPECIFIED|UNSPECIFIED,20MG|CAPSULE|PO,0.35,1,1,0.5,0.0,0.0,1,1,112715,DrugsAndMedicine,Omeprazole,Oral:,20 mg Capsule *Primary Health Care,A02BC01 
+OMEPRAZOLE,UNSPECIFIED|UNSPECIFIED,40MG|CAPSULE|PO,0.35,2,1,0.5,0.0,0.0,1,1,112715,DrugsAndMedicine,Omeprazole,Oral:,40 mg Capsule *Primary Health Care,A02BC01 
+OMEPRAZOLE,UNSPECIFIED|UNSPECIFIED,"10ML,40MG|AMPUL,VIAL|INJ.",0.35,3,1,0.5,0.0,0.0,1,1,112715,DrugsAndMedicine,Omeprazole,Inj.:,40 mg Powder + 10 mL solvent (Ampule/Vial) (IV) ,A02BC01 
+PROPOFOL,UNSPECIFIED|UNSPECIFIED,"10MG,20ML|AMPUL|INJ.",0.35,1,1,0.5,0.0,0.0,1,1,139221,DrugsAndMedicine,Propofol,Inj.:,10 mg/mL in 20 mL Ampul (IV) ,N01AX10
+PROPOFOL,UNSPECIFIED|UNSPECIFIED,"10MG,50ML|PRE-FILLED SYRINGE|INJ.",0.35,2,1,0.5,0.0,0.0,1,1,139221,DrugsAndMedicine,Propofol,Inj.:,10 mg/mL in 50 mL Pre-filled syringe (IV) ,N01AX10
+PROPOFOL,UNSPECIFIED|UNSPECIFIED,"10MG,20ML|VIAL|INJ.",0.35,3,1,0.5,0.0,0.0,1,1,139221,DrugsAndMedicine,Propofol,Inj.:,10 mg/mL in 20 mL Vial (IV) ,N01AX10
+TINZAPARIN,UNSPECIFIED|UNSPECIFIED,0.35ML|PRE-FILLED SYRINGE|INJ.,0.35,1,1,0.5,0.0,0.0,1,1,128904,DrugsAndMedicine,Tinzaparin,Inj.:,"10,000 anti-Xa IU/mL (as Sodium) in 0.35 mL Pre-filled syringe (SC) ",B01AB10 
+TINZAPARIN,UNSPECIFIED|UNSPECIFIED,0.45ML|PRE-FILLED SYRINGE|INJ.,0.35,2,1,0.5,0.0,0.0,1,1,128904,DrugsAndMedicine,Tinzaparin,Inj.:,"10,000 anti-Xa IU/mL (as Sodium) in 0.45 mL Pre-filled syringe (SC) ",B01AB10 
+TINZAPARIN,UNSPECIFIED|UNSPECIFIED,2ML|VIAL|INJ.,0.35,3,1,0.5,0.0,0.0,1,1,128904,DrugsAndMedicine,Tinzaparin,Inj.:,"10,000 anti-Xa IU/mL (as Sodium) in 2 mL Vial (SC) ",B01AB10 
+PARACETAMOL,UNSPECIFIED|UNSPECIFIED,300MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,145188,DrugsAndMedicine,Paracetamol,Oral:,300 mg Tablet *Primary Health Care,N02BE01
+PARACETAMOL,UNSPECIFIED|UNSPECIFIED,500MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,145188,DrugsAndMedicine,Paracetamol,Oral:,500 mg Tablet *Primary Health Care,N02BE01
+PARACETAMOL,UNSPECIFIED|UNSPECIFIED,"100MG,15ML|DROPS|PO",0.35,3,1,0.5,0.0,0.0,1,1,145188,DrugsAndMedicine,Paracetamol,Oral:,100 mg/mL Drops in 15 mL (Alcohol-free) *Primary Health Care,N02BE01
+SODIUM BICARBONATE,UNSPECIFIED|UNSPECIFIED,325MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,138183,DrugsAndMedicine,Sodium Bicarbonate,Oral:,325 mg Tablet ,B05CB04 
+SODIUM BICARBONATE,UNSPECIFIED|UNSPECIFIED,650MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,138183,DrugsAndMedicine,Sodium Bicarbonate,Oral:,650 mg Tablet ,B05CB04 
+SODIUM BICARBONATE,UNSPECIFIED|UNSPECIFIED,10ML|VIAL|INJ.,0.35,3,1,0.5,0.0,0.0,1,1,138183,DrugsAndMedicine,Sodium Bicarbonate,Inj.:,1 mEq/mL in 10 mL Vial (Pediatric) ,B05CB04 
+LEVETIRACETAM,UNSPECIFIED|UNSPECIFIED,250MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,134666,DrugsAndMedicine,Levetiracetam,Oral:,250 mg Film-coated tablet ,N03AX14 
+LEVETIRACETAM,UNSPECIFIED|UNSPECIFIED,500MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,134666,DrugsAndMedicine,Levetiracetam,Oral:,500 mg Film-coated tablet ,N03AX14 
+LEVETIRACETAM,UNSPECIFIED|UNSPECIFIED,750MG|TABLET|PO,0.35,3,1,0.5,0.0,0.0,1,1,134666,DrugsAndMedicine,Levetiracetam,Oral:,750 mg Film-coated tablet ,N03AX14 
+TRANEXAMIC ACID,UNSPECIFIED|UNSPECIFIED,250MG|CAPSULE|PO,0.35,1,1,0.5,0.0,0.0,1,1,131451,DrugsAndMedicine,Tranexamic Acid,Oral:,250 mg Capsule *Primary Health Care,B02AA02 
+TRANEXAMIC ACID,UNSPECIFIED|UNSPECIFIED,500MG|CAPSULE|PO,0.35,2,1,0.5,0.0,0.0,1,1,131451,DrugsAndMedicine,Tranexamic Acid,Oral:,500 mg Capsule *Primary Health Care,B02AA02 
+TRANEXAMIC ACID,UNSPECIFIED|UNSPECIFIED,500MG|TABLET|PO,0.35,3,1,0.5,0.0,0.0,1,1,131451,DrugsAndMedicine,Tranexamic Acid,Oral:,500 mg Tablet ,B02AA02 
+LIDOCAINE,UNSPECIFIED|UNSPECIFIED,"1.8ML,2%|UNSPECIFIED|INJ.",0.55,1,0,0.5,1.0,0.0,1,1,131452,DrugsAndMedicine,Lidocaine,Inj.:,2% (as Hydrochloride) in 1.8 mL Carpule + Epinephrine (local infiltration) *Primary Health Care,C01BB01
+LIDOCAINE,UNSPECIFIED|UNSPECIFIED,"1%,20ML|AMPUL|INJ.",0.35,2,0,0.5,0.0,0.0,1,1,131452,DrugsAndMedicine,Lidocaine,Inj.:,1% (as Hydrochloride) in 20 mL Ampul *Primary Health Care,C01BB01
+LIDOCAINE,UNSPECIFIED|UNSPECIFIED,"2%,20MG,2ML|AMPUL,VIAL|INJ.",0.35,3,0,0.5,0.0,0.0,1,1,131452,DrugsAndMedicine,Lidocaine,Inj.:,"2% (20 mg/mL) (as Hydrochloride) in 2 mL Ampul/vial (IM, IV) ",C01BB01
+MEFENAMIC ACID,UNSPECIFIED|UNSPECIFIED,"250MG|CAPSULE,TABLET|PO",0.35,1,1,0.5,0.0,0.0,1,1,123838,DrugsAndMedicine,Mefenamic Acid,Oral:,250 mg Tablet /Capsule *Primary Health Care,M01AG01 
+MEFENAMIC ACID,UNSPECIFIED|UNSPECIFIED,"500MG|CAPSULE,TABLET|PO",0.35,2,1,0.5,0.0,0.0,1,1,123838,DrugsAndMedicine,Mefenamic Acid,Oral:,500 mg Tablet /Capsule *Primary Health Care,M01AG01 
+ENOXAPARIN,UNSPECIFIED|UNSPECIFIED,"0.2ML,100MG|PRE-FILLED SYRINGE|INJ.",0.35,1,1,0.5,0.0,0.0,1,1,125958,DrugsAndMedicine,Enoxaparin,Inj.:,100 mg/mL (as Sodium) in 0.2 mL Pre-filled syringe (SC) ,B01AB05
+ENOXAPARIN,UNSPECIFIED|UNSPECIFIED,"0.4ML,100MG|PRE-FILLED SYRINGE|INJ.",0.35,2,1,0.5,0.0,0.0,1,1,125958,DrugsAndMedicine,Enoxaparin,Inj.:,100 mg/mL (as Sodium) in 0.4 mL Pre-filled syringe (SC) ,B01AB05
+ENOXAPARIN,UNSPECIFIED|UNSPECIFIED,"0.6ML,100MG|PRE-FILLED SYRINGE|INJ.",0.35,3,1,0.5,0.0,0.0,1,1,125958,DrugsAndMedicine,Enoxaparin,Inj.:,100 mg/mL (as Sodium) in 0.6 mL Pre-filled syringe (SC) ,B01AB05
+CLONIDINE,UNSPECIFIED|UNSPECIFIED,75MCG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,137369,DrugsAndMedicine,Clonidine,Oral:,75 mcg (as Hydrochloride) Tablet *Primary Health Care,C02AC01
+CLONIDINE,UNSPECIFIED|UNSPECIFIED,150MCG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,137369,DrugsAndMedicine,Clonidine,Oral:,150 mcg (as Hydrochloride) Tablet ,C02AC01
+CLONIDINE,UNSPECIFIED|UNSPECIFIED,"150MCG,1ML|AMPUL",0.35,3,1,0.5,0.0,0.0,1,1,137369,DrugsAndMedicine,Clonidine,,150 mcg/mL (as Hydrochloride) in 1 mL Ampul (IV) ,C02AC01
+LIDOCAINE,UNSPECIFIED|UNSPECIFIED,"1.8ML,2%|UNSPECIFIED|INJ.",0.55,1,0,0.5,1.0,0.0,1,1,138240,DrugsAndMedicine,Lidocaine,Inj.:,2% (as Hydrochloride) in 1.8 mL Carpule + Epinephrine (local infiltration) *Primary Health Care,C01BB01
+LIDOCAINE,UNSPECIFIED|UNSPECIFIED,"1%,20ML|AMPUL|INJ.",0.35,2,0,0.5,0.0,0.0,1,1,138240,DrugsAndMedicine,Lidocaine,Inj.:,1% (as Hydrochloride) in 20 mL Ampul *Primary Health Care,C01BB01
+LIDOCAINE,UNSPECIFIED|UNSPECIFIED,"2%,20MG,2ML|AMPUL,VIAL|INJ.",0.35,3,0,0.5,0.0,0.0,1,1,138240,DrugsAndMedicine,Lidocaine,Inj.:,"2% (20 mg/mL) (as Hydrochloride) in 2 mL Ampul/vial (IM, IV) ",C01BB01
+CELECOXIB,UNSPECIFIED|UNSPECIFIED,100MG|CAPSULE|PO,0.35,1,1,0.5,0.0,0.0,1,1,138242,DrugsAndMedicine,Celecoxib,Oral:,100 mg Capsule *Primary Health Care,M01AH01
+CELECOXIB,UNSPECIFIED|UNSPECIFIED,200MG|CAPSULE|PO,0.35,2,1,0.5,0.0,0.0,1,1,138242,DrugsAndMedicine,Celecoxib,Oral:,200 mg Capsule *Primary Health Care,M01AH01
+CELECOXIB,UNSPECIFIED|UNSPECIFIED,400MG|CAPSULE|PO,0.35,3,1,0.5,0.0,0.0,1,1,138242,DrugsAndMedicine,Celecoxib,Oral:,400 mg Capsule *Primary Health Care,M01AH01
+BUPIVACAINE,0.5%|UNSPECIFIED,"0.5%,5ML|VIAL|INJ.",0.35,1,1,0.5,0.0,0.0,1,1,148612,DrugsAndMedicine,Bupivacaine,Inj.:,0.5% (as Hydrochloride) in 5 mL Vial ,N01BB01
+BUPIVACAINE,0.5%|UNSPECIFIED,"0.5%,10ML|VIAL|INJ.",0.35,2,1,0.5,0.0,0.0,1,1,148612,DrugsAndMedicine,Bupivacaine,Inj.:,0.5% (as Hydrochloride) in 10 mL Vial ,N01BB01
+BUPIVACAINE,0.5%|UNSPECIFIED,"0.5%,20ML|VIAL|INJ.",0.35,3,1,0.5,0.0,0.0,1,1,148612,DrugsAndMedicine,Bupivacaine,Inj.:,0.5% (as Hydrochloride) in 20 mL Vial ,N01BB01
+TROPICAMIDE + PHENYLEPHRINE,UNSPECIFIED|UNSPECIFIED,"10ML,5MG|SOLUTION|OPHTHALMIC",0.35,1,0,0.5,0.0,0.0,1,1,152267,DrugsAndMedicine,Tropicamide + Phenylephrine hydrochloride,Ophthalmic:,5 mg + 5 mg/mL Ophthalmic drop solution in 10 mL (Fixed-dose combination) ,S01FA56 
+ERYTHROMYCIN,UNSPECIFIED|UNSPECIFIED,500MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,152798,DrugsAndMedicine,Erythromycin,Oral:,500 mg (as Stearate) Tablet *Primary Health Care,J01FA01
+ERYTHROMYCIN,UNSPECIFIED|UNSPECIFIED,"200MG/5ML,60ML|SUSPENSION|PO",0.35,2,1,0.5,0.0,0.0,1,1,152798,DrugsAndMedicine,Erythromycin,Oral:,200 mg/5 mL (as Ethyl succinate) Granules/Powder for suspension in 60 mL *Primary Health Care,J01FA01
+ERYTHROMYCIN,UNSPECIFIED|UNSPECIFIED,"400MG/5ML,50ML|SUSPENSION|PO",0.35,3,1,0.5,0.0,0.0,1,1,152798,DrugsAndMedicine,Erythromycin,Oral:,400 mg/5 mL (as Ethyl succinate) Granules/Powder for suspension in 50 mL ,J01FA01
+SODIUM CHLORIDE,UNSPECIFIED|UNSPECIFIED,20ML|VIAL|INJ.,0.35,1,1,0.5,0.0,0.0,1,1,164341,DrugsAndMedicine,Sodium Chloride,Inj.:,2.5 mEq/mL in 20 mL Vial *Primary Health Care,B05XA03 
+SODIUM CHLORIDE,UNSPECIFIED|UNSPECIFIED,50ML|VIAL|INJ.,0.35,2,1,0.5,0.0,0.0,1,1,164341,DrugsAndMedicine,Sodium Chloride,Inj.:,2.5 mEq/mL in 50 mL Vial *Primary Health Care,B05XA03 
+URSODEOXYCHOLIC ACID,UNSPECIFIED|UNSPECIFIED,250MG|CAPSULE|PO,0.35,1,1,0.5,0.0,0.0,1,1,145914,DrugsAndMedicine,Ursodeoxycholic Acid,Oral:,250 mg Capsule ,A05AA02
+URSODEOXYCHOLIC ACID,UNSPECIFIED|UNSPECIFIED,250MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,145914,DrugsAndMedicine,Ursodeoxycholic Acid,Oral:,250 mg Tablet ,A05AA02
+URSODEOXYCHOLIC ACID,UNSPECIFIED|UNSPECIFIED,500MG|TABLET|PO,0.35,3,1,0.5,0.0,0.0,1,1,145914,DrugsAndMedicine,Ursodeoxycholic Acid,Oral:,500 mg Tablet ,A05AA02
+PROPOFOL,UNSPECIFIED|UNSPECIFIED,"10MG,20ML|AMPUL|INJ.",0.35,1,1,0.5,0.0,0.0,1,1,169615,DrugsAndMedicine,Propofol,Inj.:,10 mg/mL in 20 mL Ampul (IV) ,N01AX10
+PROPOFOL,UNSPECIFIED|UNSPECIFIED,"10MG,50ML|PRE-FILLED SYRINGE|INJ.",0.35,2,1,0.5,0.0,0.0,1,1,169615,DrugsAndMedicine,Propofol,Inj.:,10 mg/mL in 50 mL Pre-filled syringe (IV) ,N01AX10
+PROPOFOL,UNSPECIFIED|UNSPECIFIED,"10MG,20ML|VIAL|INJ.",0.35,3,1,0.5,0.0,0.0,1,1,169615,DrugsAndMedicine,Propofol,Inj.:,10 mg/mL in 20 mL Vial (IV) ,N01AX10
+LACTULOSE,UNSPECIFIED|UNSPECIFIED,"3.35G/5ML,3.3G/5ML|SYRUP|PO",0.35,1,1,0.5,0.0,0.0,1,1,169338,DrugsAndMedicine,Lactulose,Oral:,3.3 g/5 mL (3.35 g/5 mL) Syrup *Primary Health Care,A06AD11
+LACTULOSE,UNSPECIFIED|UNSPECIFIED,"120ML,3.35G/5ML,3.3G/5ML|SYRUP|PO",0.35,2,1,0.5,0.0,0.0,1,1,169338,DrugsAndMedicine,Lactulose,Oral:,3.3 g/5 mL (3.35 g/ 5 mL) Syrup in 120 mL *Primary Health Care,A06AD11 
+TRAMADOL,UNSPECIFIED|UNSPECIFIED,50MG|CAPSULE|PO,0.35,1,1,0.5,0.0,0.0,1,1,172681,DrugsAndMedicine,Tramadol,Oral:,50 mg (as Hydrochloride) Capsule *Primary Health Care,N02AX02 
+TRAMADOL,UNSPECIFIED|UNSPECIFIED,50MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,172681,DrugsAndMedicine,Tramadol,Oral:,50 mg (as Hydrochloride) Dispersible tablet ,N02AX02 
+TRAMADOL,UNSPECIFIED|UNSPECIFIED,100MG|TABLET|PO,0.35,3,1,0.5,0.0,0.0,1,1,172681,DrugsAndMedicine,Tramadol,Oral:,100 mg (as Hydrochloride) Modified Release (MR) tablet ,N02AX02 
+INSULIN GLARGINE,UNSPECIFIED|UNSPECIFIED,"100IU,3ML|UNSPECIFIED|SC",0.55,1,0,0.5,1.0,0.0,1,1,160710,DrugsAndMedicine,Insulin Glargine,SC:,100 IU/mL in 3 mL Pre-filled pen ,A10AE04 
+INSULIN GLARGINE,UNSPECIFIED|UNSPECIFIED,"100IU,10ML|VIAL|SC",0.35,2,0,0.5,0.0,0.0,1,1,160710,DrugsAndMedicine,Insulin Glargine,SC:,100 IU/mL in 10 mL Vial ,A10AE04 
+CLONAZEPAM,UNSPECIFIED|UNSPECIFIED,500MCG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,169526,DrugsAndMedicine,Clonazepam,Oral:,500 mcg Tablet ,N03AE01
+CLONAZEPAM,UNSPECIFIED|UNSPECIFIED,2MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,169526,DrugsAndMedicine,Clonazepam,Oral:,2 mg Tablet ,N03AE01
+CARVEDILOL,UNSPECIFIED|UNSPECIFIED,6.25MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,175224,DrugsAndMedicine,Carvedilol,Oral:,6.25 mg Tablet ,C07AG02
+CARVEDILOL,UNSPECIFIED|UNSPECIFIED,25MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,175224,DrugsAndMedicine,Carvedilol,Oral:,25 mg Tablet ,C07AG02
+CEFOXITIN,UNSPECIFIED|UNSPECIFIED,1G|VIAL|INJ.,0.35,1,1,0.5,0.0,0.0,1,1,176397,DrugsAndMedicine,Cefoxitin,Inj.:,"1 g (as Sodium) Vial (IM, IV) ",J01DC01
+CEFOXITIN,UNSPECIFIED|UNSPECIFIED,"1G,4%|SOLUTION|INJ.",0.35,2,1,0.5,0.0,0.0,1,1,176397,DrugsAndMedicine,Cefoxitin,Inj.:,1 g (as Sodium) Powder for injection + 4% dextrose solution for injection (IV infusion) ,J01DC01
+METOCLOPRAMIDE,UNSPECIFIED|UNSPECIFIED,10MG|TABLET|INJ.,0.35,1,1,0.5,0.0,0.0,1,1,198928,DrugsAndMedicine,Metoclopramide,Inj.:,10 mg (as Hydrochloride) Tablet *Primary Health Care,A03FA01 
+METOCLOPRAMIDE,UNSPECIFIED|UNSPECIFIED,"5MG/5ML,60ML|SYRUP|INJ.",0.35,2,1,0.5,0.0,0.0,1,1,198928,DrugsAndMedicine,Metoclopramide,Inj.:,5 mg/5 mL (as Base /Hydrochloride) Syrup in 60 mL *Primary Health Care,A03FA01 
+METOCLOPRAMIDE,UNSPECIFIED|UNSPECIFIED,"2ML,5MG|AMPUL|INJ.",0.35,3,1,0.5,0.0,0.0,1,1,198928,DrugsAndMedicine,Metoclopramide,Inj.:,"5 mg/mL (as Base /Hydrochloride) in 2 mL Ampul (IM, IV) ",A03FA01 
+ACETYLCYSTEINE,UNSPECIFIED|UNSPECIFIED,"200MG,25ML|UNSPECIFIED|INJ.",0.55,1,0,0.5,1.0,0.0,1,1,198955,DrugsAndMedicine,Acetylcysteine,Inj.:,200 mg/mL in 25 mL Bottle (IV Infusion) ,R05CB01
+ACETYLCYSTEINE,UNSPECIFIED|UNSPECIFIED,600MG|TABLET|PO,0.35,2,0,0.5,0.0,0.0,1,1,198955,DrugsAndMedicine,Acetylcysteine,Oral:,600 mg Effervescent tablet ,R05CB01
+ACETYLCYSTEINE,UNSPECIFIED|UNSPECIFIED,100MG|SACHET|PO,0.35,3,0,0.5,0.0,0.0,1,1,198955,DrugsAndMedicine,Acetylcysteine,Oral:,100 mg Sachet ,R05CB01
+ENALAPRIL,UNSPECIFIED|UNSPECIFIED,5MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,175269,DrugsAndMedicine,Enalapril,Oral:,5 mg (as Maleate) Tablet *Primary Health Care,C09AA02
+ENALAPRIL,UNSPECIFIED|UNSPECIFIED,20MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,175269,DrugsAndMedicine,Enalapril,Oral:,20 mg (as Maleate) Tablet *Primary Health Care,C09AA02
+LEVETIRACETAM,UNSPECIFIED|UNSPECIFIED,250MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,176668,DrugsAndMedicine,Levetiracetam,Oral:,250 mg Film-coated tablet ,N03AX14 
+LEVETIRACETAM,UNSPECIFIED|UNSPECIFIED,500MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,176668,DrugsAndMedicine,Levetiracetam,Oral:,500 mg Film-coated tablet ,N03AX14 
+LEVETIRACETAM,UNSPECIFIED|UNSPECIFIED,750MG|TABLET|PO,0.35,3,1,0.5,0.0,0.0,1,1,176668,DrugsAndMedicine,Levetiracetam,Oral:,750 mg Film-coated tablet ,N03AX14 
+FUROSEMIDE,UNSPECIFIED|UNSPECIFIED,20MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,177652,DrugsAndMedicine,Furosemide,Oral:,20 mg Tablet ,C03CA01
+FUROSEMIDE,UNSPECIFIED|UNSPECIFIED,40MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,177652,DrugsAndMedicine,Furosemide,Oral:,40 mg Tablet *Primary Health Care,C03CA01
+FUROSEMIDE,UNSPECIFIED|UNSPECIFIED,"10MG,2ML|AMPUL|INJ.",0.35,3,1,0.5,0.0,0.0,1,1,177652,DrugsAndMedicine,Furosemide,Inj.:,"10 mg/mL in 2 mL Ampul (IM, IV) *Primary Health Care",C03CA01
+MORPHINE,UNSPECIFIED|UNSPECIFIED,"10MG|CAPSULE,TABLET|PO",0.35,1,1,0.5,0.0,0.0,1,1,177653,DrugsAndMedicine,Morphine,Oral:,10 mg (as Sulfate) Tablet/Capsule ,N02AA01 
+MORPHINE,UNSPECIFIED|UNSPECIFIED,"20MG|CAPSULE,TABLET|PO",0.35,2,1,0.5,0.0,0.0,1,1,177653,DrugsAndMedicine,Morphine,Oral:,20 mg (as Sulfate) Tablet/Capsule ,N02AA01 
+MORPHINE,UNSPECIFIED|UNSPECIFIED,"30MG|CAPSULE,TABLET|PO",0.35,3,1,0.5,0.0,0.0,1,1,177653,DrugsAndMedicine,Morphine,Oral:,30 mg (as Sulfate) Tablet/Capsule ,N02AA01 
+PROPRANOLOL,UNSPECIFIED|UNSPECIFIED,10MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,198668,DrugsAndMedicine,Propranolol,Oral:,10 mg (as Hydrochloride) Tablet ,C07AA05 
+PROPRANOLOL,UNSPECIFIED|UNSPECIFIED,40MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,198668,DrugsAndMedicine,Propranolol,Oral:,40 mg (as Hydrochloride) Tablet ,C07AA05 
+SILVER SULFADIAZINE,UNSPECIFIED|UNSPECIFIED,"1%,15G|CREAM|TOP",0.35,1,1,0.5,0.0,0.0,1,1,176610,DrugsAndMedicine,Silver Sulfadiazine,Topical:,1% Cream in 15 g Tube *Primary Health Care,D06BA01 
+SILVER SULFADIAZINE,UNSPECIFIED|UNSPECIFIED,"1%,25G|CREAM|TOP",0.35,2,1,0.5,0.0,0.0,1,1,176610,DrugsAndMedicine,Silver Sulfadiazine,Topical:,1% Cream in 25 g Tube *Primary Health Care,D06BA01 
+SILVER SULFADIAZINE,UNSPECIFIED|UNSPECIFIED,500G|CREAM|TOP,0.35,3,1,0.5,0.0,0.0,1,1,176610,DrugsAndMedicine,Silver Sulfadiazine,Topical:,Cream in 500 g Jar (Micronized) *Primary Health Care,D06BA01 
+RABEPRAZOLE,UNSPECIFIED|UNSPECIFIED,10MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,187756,DrugsAndMedicine,Rabeprazole ,Oral:,10 mg (as Sodium) Tablet ,A02BC04
+RABEPRAZOLE,UNSPECIFIED|UNSPECIFIED,20MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,187756,DrugsAndMedicine,Rabeprazole ,Oral:,20 mg (as Sodium) Tablet ,A02BC04
+TELMISARTAN + HYDROCHLOROTHIAZIDE,UNSPECIFIED|UNSPECIFIED,"12.5MG,40MG|TABLET|PO",0.35,1,0,0.5,0.0,0.0,1,1,191313,DrugsAndMedicine,Telmisartan + Hydrochlorothiazide,Oral:,40 mg + 12.5 mg Tablet ,C09DA07 
+BUTAMIRATE,UNSPECIFIED|UNSPECIFIED,50MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,220058,DrugsAndMedicine,Butamirate,Oral:,50 mg (as Citrate) Modified Release (MR) tablet *Primary Health Care,R05DB13
+BUTAMIRATE,UNSPECIFIED|UNSPECIFIED,"120ML,7.5MG/5ML|SYRUP|PO",0.35,2,1,0.5,0.0,0.0,1,1,220058,DrugsAndMedicine,Butamirate,Oral:,7.5 mg/5 mL (as Citrate) Syrup in 120 mL *Primary Health Care,R05DB13
+FUROSEMIDE,UNSPECIFIED|UNSPECIFIED,20MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,221424,DrugsAndMedicine,Furosemide,Oral:,20 mg Tablet ,C03CA01
+FUROSEMIDE,UNSPECIFIED|UNSPECIFIED,40MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,221424,DrugsAndMedicine,Furosemide,Oral:,40 mg Tablet *Primary Health Care,C03CA01
+FUROSEMIDE,UNSPECIFIED|UNSPECIFIED,"10MG,2ML|AMPUL|INJ.",0.35,3,1,0.5,0.0,0.0,1,1,221424,DrugsAndMedicine,Furosemide,Inj.:,"10 mg/mL in 2 mL Ampul (IM, IV) *Primary Health Care",C03CA01
+CARBACHOL,UNSPECIFIED|UNSPECIFIED,"0.01%,1.5ML|SOLUTION,VIAL|OPHTHALMIC",0.35,1,0,0.5,0.0,0.0,1,1,200474,DrugsAndMedicine,Carbachol,Ophthalmic:,0.01% Intraocular solution in 1.5 mL Vial ,N07AB01
+DAPAGLIFLOZIN,UNSPECIFIED|UNSPECIFIED,10MG|TABLET|PO,0.35,1,0,0.5,0.0,0.0,1,1,218371,DrugsAndMedicine,Dapagliflozin,Oral:,10 mg Film-coated tablet ,A10BK01 
+TRAMADOL,UNSPECIFIED|UNSPECIFIED,50MG|CAPSULE|PO,0.35,1,1,0.5,0.0,0.0,1,1,224719,DrugsAndMedicine,Tramadol,Oral:,50 mg (as Hydrochloride) Capsule *Primary Health Care,N02AX02 
+TRAMADOL,UNSPECIFIED|UNSPECIFIED,50MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,224719,DrugsAndMedicine,Tramadol,Oral:,50 mg (as Hydrochloride) Dispersible tablet ,N02AX02 
+TRAMADOL,UNSPECIFIED|UNSPECIFIED,100MG|TABLET|PO,0.35,3,1,0.5,0.0,0.0,1,1,224719,DrugsAndMedicine,Tramadol,Oral:,100 mg (as Hydrochloride) Modified Release (MR) tablet ,N02AX02 
+PARACETAMOL,UNSPECIFIED|UNSPECIFIED,300MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,224720,DrugsAndMedicine,Paracetamol,Oral:,300 mg Tablet *Primary Health Care,N02BE01
+PARACETAMOL,UNSPECIFIED|UNSPECIFIED,500MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,224720,DrugsAndMedicine,Paracetamol,Oral:,500 mg Tablet *Primary Health Care,N02BE01
+PARACETAMOL,UNSPECIFIED|UNSPECIFIED,"100MG,15ML|DROPS|PO",0.35,3,1,0.5,0.0,0.0,1,1,224720,DrugsAndMedicine,Paracetamol,Oral:,100 mg/mL Drops in 15 mL (Alcohol-free) *Primary Health Care,N02BE01
+FUROSEMIDE,UNSPECIFIED|UNSPECIFIED,20MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,220112,DrugsAndMedicine,Furosemide,Oral:,20 mg Tablet ,C03CA01
+FUROSEMIDE,UNSPECIFIED|UNSPECIFIED,40MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,220112,DrugsAndMedicine,Furosemide,Oral:,40 mg Tablet *Primary Health Care,C03CA01
+FUROSEMIDE,UNSPECIFIED|UNSPECIFIED,"10MG,2ML|AMPUL|INJ.",0.35,3,1,0.5,0.0,0.0,1,1,220112,DrugsAndMedicine,Furosemide,Inj.:,"10 mg/mL in 2 mL Ampul (IM, IV) *Primary Health Care",C03CA01
+HYDROXYUREA,UNSPECIFIED|UNSPECIFIED,500MG|CAPSULE|PO,0.35,1,0,0.5,0.0,0.0,1,1,223808,DrugsAndMedicine,Hydroxyurea,Oral:,500 mg Capsule ,L01XX05
+CINNARIZINE,UNSPECIFIED|UNSPECIFIED,25MG|TABLET|PO,0.35,1,0,0.5,0.0,0.0,1,1,237285,DrugsAndMedicine,Cinnarizine,Oral:,25 mg Tablet ,N07CA02
+ACETYLCYSTEINE,UNSPECIFIED|UNSPECIFIED,"200MG,25ML|UNSPECIFIED|INJ.",0.55,1,0,0.5,1.0,0.0,1,1,237870,DrugsAndMedicine,Acetylcysteine,Inj.:,200 mg/mL in 25 mL Bottle (IV Infusion) ,R05CB01
+ACETYLCYSTEINE,UNSPECIFIED|UNSPECIFIED,600MG|TABLET|PO,0.35,2,0,0.5,0.0,0.0,1,1,237870,DrugsAndMedicine,Acetylcysteine,Oral:,600 mg Effervescent tablet ,R05CB01
+ACETYLCYSTEINE,UNSPECIFIED|UNSPECIFIED,100MG|SACHET|PO,0.35,3,0,0.5,0.0,0.0,1,1,237870,DrugsAndMedicine,Acetylcysteine,Oral:,100 mg Sachet ,R05CB01
+PROPOFOL,UNSPECIFIED|UNSPECIFIED,"10MG,20ML|AMPUL|INJ.",0.35,1,1,0.5,0.0,0.0,1,1,224246,DrugsAndMedicine,Propofol,Inj.:,10 mg/mL in 20 mL Ampul (IV) ,N01AX10
+PROPOFOL,UNSPECIFIED|UNSPECIFIED,"10MG,50ML|PRE-FILLED SYRINGE|INJ.",0.35,2,1,0.5,0.0,0.0,1,1,224246,DrugsAndMedicine,Propofol,Inj.:,10 mg/mL in 50 mL Pre-filled syringe (IV) ,N01AX10
+PROPOFOL,UNSPECIFIED|UNSPECIFIED,"10MG,20ML|VIAL|INJ.",0.35,3,1,0.5,0.0,0.0,1,1,224246,DrugsAndMedicine,Propofol,Inj.:,10 mg/mL in 20 mL Vial (IV) ,N01AX10
+PHENYTOIN,UNSPECIFIED|UNSPECIFIED,100MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,260608,DrugsAndMedicine,Phenytoin,Oral:,100 mg (as Sodium) Tablet ,N03AB02 
+PHENYTOIN,UNSPECIFIED|UNSPECIFIED,"120ML,30MG/5ML|SUSPENSION|PO",0.35,2,1,0.5,0.0,0.0,1,1,260608,DrugsAndMedicine,Phenytoin,Oral:,30 mg/5 mL (as Sodium) Suspension in 120 mL ,N03AB02 
+PHENYTOIN,UNSPECIFIED|UNSPECIFIED,"120ML,125MG/5ML|SUSPENSION|PO",0.35,3,1,0.5,0.0,0.0,1,1,260608,DrugsAndMedicine,Phenytoin,Oral:,125 mg/5 mL (as Sodium) Suspension in 120 mL ,N03AB02 
+WARFARIN,UNSPECIFIED|UNSPECIFIED,"1MG|AMPUL,TABLET|PO",0.35,1,1,0.5,0.0,0.0,1,1,261413,DrugsAndMedicine,Warfarin,Oral:,"1 mg (as Sodium) Tablet Ampul Composed of:
+Vitamins A, D, E, K ",B01AA03 
+WARFARIN,UNSPECIFIED|UNSPECIFIED,1MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,261413,DrugsAndMedicine,Warfarin,Oral:,1 mg (as Sodium) Tablet ,B01AA03 
+WARFARIN,UNSPECIFIED|UNSPECIFIED,2.5MG|TABLET|PO,0.35,3,1,0.5,0.0,0.0,1,1,261413,DrugsAndMedicine,Warfarin,Oral:,2.5 mg (as Sodium) Tablet ,B01AA03 
+SODIUM CHLORIDE,UNSPECIFIED|UNSPECIFIED,20ML|VIAL|INJ.,0.35,1,1,0.5,0.0,0.0,1,1,261649,DrugsAndMedicine,Sodium Chloride,Inj.:,2.5 mEq/mL in 20 mL Vial *Primary Health Care,B05XA03 
+SODIUM CHLORIDE,UNSPECIFIED|UNSPECIFIED,50ML|VIAL|INJ.,0.35,2,1,0.5,0.0,0.0,1,1,261649,DrugsAndMedicine,Sodium Chloride,Inj.:,2.5 mEq/mL in 50 mL Vial *Primary Health Care,B05XA03 
+CEFIXIME,UNSPECIFIED|UNSPECIFIED,200MG|CAPSULE|PO,0.35,1,1,0.5,0.0,0.0,1,1,224681,DrugsAndMedicine,Cefixime,Oral:,200 mg Capsule *Primary Health Care,J01DD08
+CEFIXIME,UNSPECIFIED|UNSPECIFIED,400MG|CAPSULE|PO,0.35,2,1,0.5,0.0,0.0,1,1,224681,DrugsAndMedicine,Cefixime,Oral:,400 mg Capsule ,J01DD08
+CEFIXIME,UNSPECIFIED|UNSPECIFIED,"10ML,20MG|DROPS|PO",0.35,3,1,0.5,0.0,0.0,1,1,224681,DrugsAndMedicine,Cefixime,Oral:,20 mg/mL in 10 mL (drops) *Primary Health Care,J01DD08
+FUROSEMIDE,UNSPECIFIED|UNSPECIFIED,20MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,224682,DrugsAndMedicine,Furosemide,Oral:,20 mg Tablet ,C03CA01
+FUROSEMIDE,UNSPECIFIED|UNSPECIFIED,40MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,224682,DrugsAndMedicine,Furosemide,Oral:,40 mg Tablet *Primary Health Care,C03CA01
+FUROSEMIDE,UNSPECIFIED|UNSPECIFIED,"10MG,2ML|AMPUL|INJ.",0.35,3,1,0.5,0.0,0.0,1,1,224682,DrugsAndMedicine,Furosemide,Inj.:,"10 mg/mL in 2 mL Ampul (IM, IV) *Primary Health Care",C03CA01
+PARACETAMOL,UNSPECIFIED|UNSPECIFIED,300MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,230556,DrugsAndMedicine,Paracetamol,Oral:,300 mg Tablet *Primary Health Care,N02BE01
+PARACETAMOL,UNSPECIFIED|UNSPECIFIED,500MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,230556,DrugsAndMedicine,Paracetamol,Oral:,500 mg Tablet *Primary Health Care,N02BE01
+PARACETAMOL,UNSPECIFIED|UNSPECIFIED,"100MG,15ML|DROPS|PO",0.35,3,1,0.5,0.0,0.0,1,1,230556,DrugsAndMedicine,Paracetamol,Oral:,100 mg/mL Drops in 15 mL (Alcohol-free) *Primary Health Care,N02BE01
+TRANEXAMIC ACID,UNSPECIFIED|UNSPECIFIED,250MG|CAPSULE|PO,0.35,1,1,0.5,0.0,0.0,1,1,230557,DrugsAndMedicine,Tranexamic Acid,Oral:,250 mg Capsule *Primary Health Care,B02AA02 
+TRANEXAMIC ACID,UNSPECIFIED|UNSPECIFIED,500MG|CAPSULE|PO,0.35,2,1,0.5,0.0,0.0,1,1,230557,DrugsAndMedicine,Tranexamic Acid,Oral:,500 mg Capsule *Primary Health Care,B02AA02 
+TRANEXAMIC ACID,UNSPECIFIED|UNSPECIFIED,500MG|TABLET|PO,0.35,3,1,0.5,0.0,0.0,1,1,230557,DrugsAndMedicine,Tranexamic Acid,Oral:,500 mg Tablet ,B02AA02 
+IRBESARTAN,UNSPECIFIED|UNSPECIFIED,150MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,255849,DrugsAndMedicine,Irbesartan,Oral:,150 mg Tablet ,C09CA04
+IRBESARTAN,UNSPECIFIED|UNSPECIFIED,300MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,255849,DrugsAndMedicine,Irbesartan,Oral:,300 mg Tablet ,C09CA04
+IRBESARTAN,UNSPECIFIED|UNSPECIFIED,150MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,255856,DrugsAndMedicine,Irbesartan,Oral:,150 mg Tablet ,C09CA04
+IRBESARTAN,UNSPECIFIED|UNSPECIFIED,300MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,255856,DrugsAndMedicine,Irbesartan,Oral:,300 mg Tablet ,C09CA04
+PARACETAMOL,UNSPECIFIED|UNSPECIFIED,300MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,252606,DrugsAndMedicine,Paracetamol,Oral:,300 mg Tablet *Primary Health Care,N02BE01
+PARACETAMOL,UNSPECIFIED|UNSPECIFIED,500MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,252606,DrugsAndMedicine,Paracetamol,Oral:,500 mg Tablet *Primary Health Care,N02BE01
+PARACETAMOL,UNSPECIFIED|UNSPECIFIED,"100MG,15ML|DROPS|PO",0.35,3,1,0.5,0.0,0.0,1,1,252606,DrugsAndMedicine,Paracetamol,Oral:,100 mg/mL Drops in 15 mL (Alcohol-free) *Primary Health Care,N02BE01
+PARACETAMOL,UNSPECIFIED|UNSPECIFIED,300MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,255809,DrugsAndMedicine,Paracetamol,Oral:,300 mg Tablet *Primary Health Care,N02BE01
+PARACETAMOL,UNSPECIFIED|UNSPECIFIED,500MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,255809,DrugsAndMedicine,Paracetamol,Oral:,500 mg Tablet *Primary Health Care,N02BE01
+PARACETAMOL,UNSPECIFIED|UNSPECIFIED,"100MG,15ML|DROPS|PO",0.35,3,1,0.5,0.0,0.0,1,1,255809,DrugsAndMedicine,Paracetamol,Oral:,100 mg/mL Drops in 15 mL (Alcohol-free) *Primary Health Care,N02BE01
+SILVER SULFADIAZINE,UNSPECIFIED|UNSPECIFIED,"1%,15G|CREAM|TOP",0.35,1,1,0.5,0.0,0.0,1,1,268174,DrugsAndMedicine,Silver Sulfadiazine,Topical:,1% Cream in 15 g Tube *Primary Health Care,D06BA01 
+SILVER SULFADIAZINE,UNSPECIFIED|UNSPECIFIED,"1%,25G|CREAM|TOP",0.35,2,1,0.5,0.0,0.0,1,1,268174,DrugsAndMedicine,Silver Sulfadiazine,Topical:,1% Cream in 25 g Tube *Primary Health Care,D06BA01 
+SILVER SULFADIAZINE,UNSPECIFIED|UNSPECIFIED,500G|CREAM|TOP,0.35,3,1,0.5,0.0,0.0,1,1,268174,DrugsAndMedicine,Silver Sulfadiazine,Topical:,Cream in 500 g Jar (Micronized) *Primary Health Care,D06BA01 
+LEVETIRACETAM,UNSPECIFIED|UNSPECIFIED,250MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,272895,DrugsAndMedicine,Levetiracetam,Oral:,250 mg Film-coated tablet ,N03AX14 
+LEVETIRACETAM,UNSPECIFIED|UNSPECIFIED,500MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,272895,DrugsAndMedicine,Levetiracetam,Oral:,500 mg Film-coated tablet ,N03AX14 
+LEVETIRACETAM,UNSPECIFIED|UNSPECIFIED,750MG|TABLET|PO,0.35,3,1,0.5,0.0,0.0,1,1,272895,DrugsAndMedicine,Levetiracetam,Oral:,750 mg Film-coated tablet ,N03AX14 
+BUDESONIDE,UNSPECIFIED|UNSPECIFIED,100MCG|UNSPECIFIED|INH,0.55,1,1,0.5,1.0,0.0,1,1,266184,DrugsAndMedicine,Budesonide,Inhalation:,"100 mcg/dose x 200 doses, DPI with appropriate accompanying dispenser  ",R03BA02
+BUDESONIDE,UNSPECIFIED|UNSPECIFIED,200MCG|UNSPECIFIED|INH,0.55,2,1,0.5,1.0,0.0,1,1,266184,DrugsAndMedicine,Budesonide,Inhalation:,"200 mcg/dose x 100 doses, DPI with appropriate accompanying dispenser  ",R03BA02
+BUDESONIDE,UNSPECIFIED|UNSPECIFIED,200MCG|UNSPECIFIED|INH,0.55,3,1,0.5,1.0,0.0,1,1,266184,DrugsAndMedicine,Budesonide,Inhalation:,"200 mcg/dose x 120 actuations, MDI with appropriate accompanying dispenser  ",R03BA02
+METHYLPHENIDATE,UNSPECIFIED|UNSPECIFIED,10MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,272344,DrugsAndMedicine,Methylphenidate,Oral:,10 mg Tablet ,N06BA04 
+METHYLPHENIDATE,UNSPECIFIED|UNSPECIFIED,18MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,272344,DrugsAndMedicine,Methylphenidate,Oral:,18 mg Modified Release (MR) tablet ,N06BA04 
+METHYLPHENIDATE,UNSPECIFIED|UNSPECIFIED,27MG|TABLET|PO,0.35,3,1,0.5,0.0,0.0,1,1,272344,DrugsAndMedicine,Methylphenidate,Oral:,27 mg Modified Release (MR) tablet ,N06BA04 
+NALBUPHINE,UNSPECIFIED|UNSPECIFIED,"10MG,1ML|AMPUL|INJ.",0.35,1,0,0.5,0.0,0.0,1,1,264396,DrugsAndMedicine,Nalbuphine,Inj.:,10 mg/mL (as Hydrochloride) in 1 mL Ampul ,N02AF02
+PROPOFOL,UNSPECIFIED|UNSPECIFIED,"10MG,20ML|AMPUL|INJ.",0.35,1,1,0.5,0.0,0.0,1,1,264397,DrugsAndMedicine,Propofol,Inj.:,10 mg/mL in 20 mL Ampul (IV) ,N01AX10
+PROPOFOL,UNSPECIFIED|UNSPECIFIED,"10MG,50ML|PRE-FILLED SYRINGE|INJ.",0.35,2,1,0.5,0.0,0.0,1,1,264397,DrugsAndMedicine,Propofol,Inj.:,10 mg/mL in 50 mL Pre-filled syringe (IV) ,N01AX10
+PROPOFOL,UNSPECIFIED|UNSPECIFIED,"10MG,20ML|VIAL|INJ.",0.35,3,1,0.5,0.0,0.0,1,1,264397,DrugsAndMedicine,Propofol,Inj.:,10 mg/mL in 20 mL Vial (IV) ,N01AX10
+BUDESONIDE,UNSPECIFIED|UNSPECIFIED,100MCG|UNSPECIFIED|INH,0.55,1,1,0.5,1.0,0.0,1,1,263876,DrugsAndMedicine,Budesonide,Inhalation:,"100 mcg/dose x 200 doses, DPI with appropriate accompanying dispenser  ",R03BA02
+BUDESONIDE,UNSPECIFIED|UNSPECIFIED,200MCG|UNSPECIFIED|INH,0.55,2,1,0.5,1.0,0.0,1,1,263876,DrugsAndMedicine,Budesonide,Inhalation:,"200 mcg/dose x 100 doses, DPI with appropriate accompanying dispenser  ",R03BA02
+BUDESONIDE,UNSPECIFIED|UNSPECIFIED,200MCG|UNSPECIFIED|INH,0.55,3,1,0.5,1.0,0.0,1,1,263876,DrugsAndMedicine,Budesonide,Inhalation:,"200 mcg/dose x 120 actuations, MDI with appropriate accompanying dispenser  ",R03BA02
+PREDNISONE,UNSPECIFIED|UNSPECIFIED,5MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,268780,DrugsAndMedicine,Prednisone,Oral:,5 mg Tablet *Primary Health Care,H02AB07 
+PREDNISONE,UNSPECIFIED|UNSPECIFIED,10MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,268780,DrugsAndMedicine,Prednisone,Oral:,10 mg Tablet *Primary Health Care,H02AB07 
+PREDNISONE,UNSPECIFIED|UNSPECIFIED,20MG|TABLET|PO,0.35,3,1,0.5,0.0,0.0,1,1,268780,DrugsAndMedicine,Prednisone,Oral:,20 mg Tablet *Primary Health Care,H02AB07 
+STREPTOKINASE,UNSPECIFIED|UNSPECIFIED,000IU|VIAL|INJ.,0.35,1,0,0.5,0.0,0.0,1,1,257225,DrugsAndMedicine,Streptokinase,Inj.:,"1,500,000 IU Powder Vial (IV infusion) ",B01AD01 
+CARVEDILOL,UNSPECIFIED|UNSPECIFIED,6.25MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,260804,DrugsAndMedicine,Carvedilol,Oral:,6.25 mg Tablet ,C07AG02
+CARVEDILOL,UNSPECIFIED|UNSPECIFIED,25MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,260804,DrugsAndMedicine,Carvedilol,Oral:,25 mg Tablet ,C07AG02
+MIDAZOLAM,UNSPECIFIED|UNSPECIFIED,15MG|TABLET|INJ.,0.35,1,1,0.5,0.0,0.0,1,1,282750,DrugsAndMedicine,Midazolam,Inj.:,15 mg Tablet ,N05CD08
+MIDAZOLAM,UNSPECIFIED|UNSPECIFIED,"1MG,5ML|AMPUL|INJ.",0.35,2,1,0.5,0.0,0.0,1,1,282750,DrugsAndMedicine,Midazolam,Inj.:,"1 mg/mL in 5 mL Ampul (IM, IV) ",N05CD08
+MIDAZOLAM,UNSPECIFIED|UNSPECIFIED,"1ML,5MG|AMPUL|INJ.",0.35,3,1,0.5,0.0,0.0,1,1,282750,DrugsAndMedicine,Midazolam,Inj.:,"5 mg/mL in 1 mL Ampul (IM, IV) ",N05CD08
+IOPAMIDOL,UNSPECIFIED|UNSPECIFIED,"300MG,50ML,612MG|VIAL|INJ.",0.35,1,1,0.5,0.0,0.0,1,1,277961,DrugsAndMedicine,Iopamidol,Inj.:,612 mg/mL (equiv. to 300 mg iodine) in 50 mL Vial (Intravascular and other parenteral routes as appropriate) ,V08AB04
+IOPAMIDOL,UNSPECIFIED|UNSPECIFIED,"100ML,300MG,612MG|VIAL|INJ.",0.35,2,1,0.5,0.0,0.0,1,1,277961,DrugsAndMedicine,Iopamidol,Inj.:,612 mg/mL (equiv. to 300 mg iodine) in 100 mL Vial (Intravascular and other parenteral routes as appropriate) ,V08AB04
+IOPAMIDOL,UNSPECIFIED|UNSPECIFIED,"370MG,50ML,755MG|VIAL|INJ.",0.35,3,1,0.5,0.0,0.0,1,1,277961,DrugsAndMedicine,Iopamidol,Inj.:,755 mg/mL (equiv. to 370 mg iodine) in 50 mL Vial/bottle (Intravascular and other parenteral routes as appropriate) ,V08AB04
+TOBRAMYCIN,UNSPECIFIED|UNSPECIFIED,"0.3%,5ML|SOLUTION|OPHTHALMIC",0.35,1,1,0.5,0.0,0.0,1,1,275627,DrugsAndMedicine,Tobramycin,Ophthalmic:,0.3% Ophthalmic drop solution in 5 mL Bottle *Primary Health Care,S01AA12 
+TOBRAMYCIN,UNSPECIFIED|UNSPECIFIED,"0.3%,3.5G|OINTMENT|OPHTHALMIC",0.35,2,1,0.5,0.0,0.0,1,1,275627,DrugsAndMedicine,Tobramycin,Ophthalmic:,0.3% Ophthalmic ointment in 3.5 g  Tube *Primary Health Care,S01AA12 
+METFORMIN,UNSPECIFIED|UNSPECIFIED,500MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,293671,DrugsAndMedicine,Metformin,Oral:,500 mg (as Hydrochloride) Tablet/Film-coated tablet *Primary Health Care,A10BA02 
+METFORMIN,UNSPECIFIED|UNSPECIFIED,850MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,293671,DrugsAndMedicine,Metformin,Oral:,850 mg (as Hydrochloride) Tablet *Primary Health Care,A10BA02 
+ACETYLCYSTEINE,UNSPECIFIED|UNSPECIFIED,"200MG,25ML|UNSPECIFIED|INJ.",0.55,1,0,0.5,1.0,0.0,1,1,293524,DrugsAndMedicine,Acetylcysteine,Inj.:,200 mg/mL in 25 mL Bottle (IV Infusion) ,R05CB01
+ACETYLCYSTEINE,UNSPECIFIED|UNSPECIFIED,600MG|TABLET|PO,0.35,2,0,0.5,0.0,0.0,1,1,293524,DrugsAndMedicine,Acetylcysteine,Oral:,600 mg Effervescent tablet ,R05CB01
+ACETYLCYSTEINE,UNSPECIFIED|UNSPECIFIED,100MG|SACHET|PO,0.35,3,0,0.5,0.0,0.0,1,1,293524,DrugsAndMedicine,Acetylcysteine,Oral:,100 mg Sachet ,R05CB01
+INSULIN GLARGINE,UNSPECIFIED|UNSPECIFIED,"100IU,3ML|UNSPECIFIED|SC",0.55,1,0,0.5,1.0,0.0,1,1,288430,DrugsAndMedicine,Insulin Glargine,SC:,100 IU/mL in 3 mL Pre-filled pen ,A10AE04 
+INSULIN GLARGINE,UNSPECIFIED|UNSPECIFIED,"100IU,10ML|VIAL|SC",0.35,2,0,0.5,0.0,0.0,1,1,288430,DrugsAndMedicine,Insulin Glargine,SC:,100 IU/mL in 10 mL Vial ,A10AE04 
+METFORMIN,UNSPECIFIED|UNSPECIFIED,500MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,293584,DrugsAndMedicine,Metformin,Oral:,500 mg (as Hydrochloride) Tablet/Film-coated tablet *Primary Health Care,A10BA02 
+METFORMIN,UNSPECIFIED|UNSPECIFIED,850MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,293584,DrugsAndMedicine,Metformin,Oral:,850 mg (as Hydrochloride) Tablet *Primary Health Care,A10BA02 
+OXYMETAZOLINE,UNSPECIFIED|UNSPECIFIED,"0.025%,10ML|SOLUTION,SPRAY|IN",0.35,1,1,0.5,0.0,0.0,1,1,293622,DrugsAndMedicine,Oxymetazoline,Nasal:,0.025% (as Hydrochloride) Solution in 10 mL Spray ,R01AA05 
+OXYMETAZOLINE,UNSPECIFIED|UNSPECIFIED,"0.05%,10ML|SOLUTION|IN",0.35,2,1,0.5,0.0,0.0,1,1,293622,DrugsAndMedicine,Oxymetazoline,Nasal:,0.05% (as Hydrochloride) Solution in 10 mL ,R01AA05 
+OXYMETAZOLINE,UNSPECIFIED|UNSPECIFIED,"0.05%,15ML|SOLUTION|IN",0.35,3,1,0.5,0.0,0.0,1,1,293622,DrugsAndMedicine,Oxymetazoline,Nasal:,0.05% (as Hydrochloride) Solution in 15 mL ,R01AA05 
+METRONIDAZOLE,UNSPECIFIED|UNSPECIFIED,250MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,283891,DrugsAndMedicine,Metronidazole,Oral:,250 mg Tablet *Primary Health Care,J01XD01 
+METRONIDAZOLE,UNSPECIFIED|UNSPECIFIED,500MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,283891,DrugsAndMedicine,Metronidazole,Oral:,500 mg Tablet *Primary Health Care,J01XD01 
+METRONIDAZOLE,UNSPECIFIED|UNSPECIFIED,"125MG/5ML,60ML|SUSPENSION|PO",0.35,3,1,0.5,0.0,0.0,1,1,283891,DrugsAndMedicine,Metronidazole,Oral:,125 mg/5 mL (as Base) Suspension in 60 mL *Primary Health Care,J01XD01 
+OMEPRAZOLE,UNSPECIFIED|UNSPECIFIED,20MG|CAPSULE|PO,0.35,1,1,0.5,0.0,0.0,1,1,295736,DrugsAndMedicine,Omeprazole,Oral:,20 mg Capsule *Primary Health Care,A02BC01 
+OMEPRAZOLE,UNSPECIFIED|UNSPECIFIED,40MG|CAPSULE|PO,0.35,2,1,0.5,0.0,0.0,1,1,295736,DrugsAndMedicine,Omeprazole,Oral:,40 mg Capsule *Primary Health Care,A02BC01 
+OMEPRAZOLE,UNSPECIFIED|UNSPECIFIED,"10ML,40MG|AMPUL,VIAL|INJ.",0.35,3,1,0.5,0.0,0.0,1,1,295736,DrugsAndMedicine,Omeprazole,Inj.:,40 mg Powder + 10 mL solvent (Ampule/Vial) (IV) ,A02BC01 
+DIAZEPAM,UNSPECIFIED|UNSPECIFIED,5MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,288587,DrugsAndMedicine,Diazepam,Oral:,5 mg Tablet *Primary Health Care,N05BA01
+DIAZEPAM,UNSPECIFIED|UNSPECIFIED,"2ML,5MG|AMPUL|INJ.",0.35,2,1,0.5,0.0,0.0,1,1,288587,DrugsAndMedicine,Diazepam,Inj.:,"5 mg/mL in 2 mL Ampul (IM,IV) *Primary Health Care",N05BA01
+DEXAMETHASONE,UNSPECIFIED|UNSPECIFIED,500MCG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,287314,DrugsAndMedicine,Dexamethasone,Oral:,500 mcg Tablet *Primary Health Care,S02BA06
+DEXAMETHASONE,UNSPECIFIED|UNSPECIFIED,750MCG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,287314,DrugsAndMedicine,Dexamethasone,Oral:,750 mcg Tablet ,S02BA06
+DEXAMETHASONE,UNSPECIFIED|UNSPECIFIED,3MG|TABLET|PO,0.35,3,1,0.5,0.0,0.0,1,1,287314,DrugsAndMedicine,Dexamethasone,Oral:,3 mg Tablet ,S02BA06
+ISOXSUPRINE,UNSPECIFIED|UNSPECIFIED,10MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,303469,DrugsAndMedicine,Isoxsuprine,Oral:,10 mg (as Hydrochloride) Tablet ,C04AA01
+ISOXSUPRINE,UNSPECIFIED|UNSPECIFIED,40MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,303469,DrugsAndMedicine,Isoxsuprine,Oral:,40 mg (as Hydrochloride) Tablet ,C04AA01
+ISOXSUPRINE,UNSPECIFIED|UNSPECIFIED,"2ML,5MG|AMPUL|INJ.",0.35,3,1,0.5,0.0,0.0,1,1,303469,DrugsAndMedicine,Isoxsuprine,Inj.:,"5 mg/mL (as Hydrochloride) in 2 mL Ampul (IM, IV infusion) ",C04AA01
+TAMSULOSIN,UNSPECIFIED|UNSPECIFIED,200MCG|CAPSULE|PO,0.35,1,1,0.5,0.0,0.0,1,1,308204,DrugsAndMedicine,Tamsulosin,Oral:,200 mcg (as Hydrochloride) Capsule *Primary Health Care,G04CA02 
+TAMSULOSIN,UNSPECIFIED|UNSPECIFIED,200MCG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,308204,DrugsAndMedicine,Tamsulosin,Oral:,200 mcg Orally disintegrating tablet (ODT) ,G04CA02 
+TAMSULOSIN,UNSPECIFIED|UNSPECIFIED,400MCG|TABLET|PO,0.35,3,1,0.5,0.0,0.0,1,1,308204,DrugsAndMedicine,Tamsulosin,Oral:,400 mcg Prolonged release film coated tablet ,G04CA02 
+TERBUTALINE,UNSPECIFIED|UNSPECIFIED,"2.5MG,2ML|UNSPECIFIED|INH",0.55,1,0,0.5,1.0,0.0,1,1,304742,DrugsAndMedicine,Terbutaline,Inhalation:,2.5 mg/mL (as Sulfate) in 2 mL Unit dose (For nebulization) ,R03CC03 
+TERBUTALINE,UNSPECIFIED|UNSPECIFIED,5MG|TABLET|PO,0.35,2,0,0.5,0.0,0.0,1,1,304742,DrugsAndMedicine,Terbutaline,Oral:,5 mg (as Sulfate) Tablet ,R03CC03 
+TERBUTALINE,UNSPECIFIED|UNSPECIFIED,"1.5MG/5ML,60ML|SYRUP|PO",0.35,3,0,0.5,0.0,0.0,1,1,304742,DrugsAndMedicine,Terbutaline,Oral:,1.5 mg/5 mL (as Sulfate) Syrup in 60 mL ,R03CC03 
+EPOETIN ALFA (RECOMBINANT HUMAN ERYTHROPOIETIN),UNSPECIFIED|UNSPECIFIED,2000IU/0.5ML|PRE-FILLED SYRINGE|INJ.,0.35,1,1,0.5,0.0,0.0,1,1,304652,DrugsAndMedicine,Epoetin Alfa (Recombinant human erythropoietin),Inj.:,"2000 IU/0.5 mL Pre-filled syringe (IV,SC) ",B03XA01
+EPOETIN ALFA (RECOMBINANT HUMAN ERYTHROPOIETIN),UNSPECIFIED|UNSPECIFIED,4000IU/0.4ML|PRE-FILLED SYRINGE|INJ.,0.35,2,1,0.5,0.0,0.0,1,1,304652,DrugsAndMedicine,Epoetin Alfa (Recombinant human erythropoietin),Inj.:,"4000 IU/0.4 mL Pre-filled syringe (IV,SC) ",B03XA01
+EPOETIN ALFA (RECOMBINANT HUMAN ERYTHROPOIETIN),UNSPECIFIED|UNSPECIFIED,"1ML,4000IU|VIAL|INJ.",0.35,3,1,0.5,0.0,0.0,1,1,304652,DrugsAndMedicine,Epoetin Alfa (Recombinant human erythropoietin),Inj.:,"4000 IU/mL in 1 mL Vial (IV,SC) ",B03XA01
+PARACETAMOL,UNSPECIFIED|UNSPECIFIED,300MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,298275,DrugsAndMedicine,Paracetamol,Oral:,300 mg Tablet *Primary Health Care,N02BE01
+PARACETAMOL,UNSPECIFIED|UNSPECIFIED,500MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,298275,DrugsAndMedicine,Paracetamol,Oral:,500 mg Tablet *Primary Health Care,N02BE01
+PARACETAMOL,UNSPECIFIED|UNSPECIFIED,"100MG,15ML|DROPS|PO",0.35,3,1,0.5,0.0,0.0,1,1,298275,DrugsAndMedicine,Paracetamol,Oral:,100 mg/mL Drops in 15 mL (Alcohol-free) *Primary Health Care,N02BE01
+LOSARTAN,UNSPECIFIED|UNSPECIFIED,50MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,317844,DrugsAndMedicine,Losartan,Oral:,50 mg (as Potassium) Tablet *Primary Health Care,C09CA01
+LOSARTAN,UNSPECIFIED|UNSPECIFIED,100MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,317844,DrugsAndMedicine,Losartan,Oral:,100 mg (as Potassium) Tablet *Primary Health Care,C09CA01
+SACUBITRIL + VALSARTAN,UNSPECIFIED|UNSPECIFIED,"24.3MG,25.7MG|TABLET|PO",0.35,1,1,0.5,0.0,0.0,1,1,321576,DrugsAndMedicine,Sacubitril + Valsartan,Oral:,24.3 mg + 25.7 mg Tablet (Restricted use for acute hypertensive emergencies in patients less than 18 years old with extreme caution due to rapid and prolonged fall in blood pressure) ,C09DX04 
+SACUBITRIL + VALSARTAN,UNSPECIFIED|UNSPECIFIED,"48.6G,51.4MG|TABLET|PO",0.35,2,1,0.5,0.0,0.0,1,1,321576,DrugsAndMedicine,Sacubitril + Valsartan,Oral:,"48.6 ,g + 51.4 mg Tablet (Restricted use for acute hypertensive emergencies in patients less than 18 years old with extreme caution due to rapid and prolonged fall in blood pressure) ",C09DX04 
+SACUBITRIL + VALSARTAN,UNSPECIFIED|UNSPECIFIED,"102.8MG,97.2MG|TABLET|PO",0.35,3,1,0.5,0.0,0.0,1,1,321576,DrugsAndMedicine,Sacubitril + Valsartan,Oral:,97.2 mg + 102.8 mg Tablet (Restricted use for acute hypertensive emergencies in patients less than 18 years old with extreme caution due to rapid and prolonged fall in blood pressure) ,C09DX04 
+DOPAMINE,UNSPECIFIED|UNSPECIFIED,"250ML,800MCG|UNSPECIFIED|INJ.",0.55,1,1,0.5,1.0,0.0,1,1,341072,DrugsAndMedicine,Dopamine,Inj.:,800 mcg/mL (as Hydrochloride) + 250 mL D5W (pre-mixed) (IV) *Primary Health Care,C01CA04
+DOPAMINE,UNSPECIFIED|UNSPECIFIED,"1.6MG,250ML|UNSPECIFIED|INJ.",0.55,2,1,0.5,1.0,0.0,1,1,341072,DrugsAndMedicine,Dopamine,Inj.:,1.6 mg/mL (as Hydrochloride) + 250 mL D5W (pre-mixed) (IV) ,C01CA04
+DOPAMINE,UNSPECIFIED|UNSPECIFIED,"40MG,5ML|AMPUL,VIAL|INJ.",0.35,3,1,0.5,0.0,0.0,1,1,341072,DrugsAndMedicine,Dopamine,Inj.:,40 mg/mL (as Hydrochloride) in 5 mL Ampul/Vial (IV) *Primary Health Care,C01CA04
+CELECOXIB,UNSPECIFIED|UNSPECIFIED,100MG|CAPSULE|PO,0.35,1,1,0.5,0.0,0.0,1,1,330984,DrugsAndMedicine,Celecoxib,Oral:,100 mg Capsule *Primary Health Care,M01AH01
+CELECOXIB,UNSPECIFIED|UNSPECIFIED,200MG|CAPSULE|PO,0.35,2,1,0.5,0.0,0.0,1,1,330984,DrugsAndMedicine,Celecoxib,Oral:,200 mg Capsule *Primary Health Care,M01AH01
+CELECOXIB,UNSPECIFIED|UNSPECIFIED,400MG|CAPSULE|PO,0.35,3,1,0.5,0.0,0.0,1,1,330984,DrugsAndMedicine,Celecoxib,Oral:,400 mg Capsule *Primary Health Care,M01AH01
+HEPARIN,UNSPECIFIED|UNSPECIFIED,"1000IU,5ML|VIAL|INJ.",0.35,1,1,0.5,0.0,0.0,1,1,318956,DrugsAndMedicine,Heparin,Inj.:,"1000 IU/mL (as Sodium) in 5 mL Vial (IV infusion, SC) (Bovine origin) (Unfractionated) ",C05BA03
+HEPARIN,UNSPECIFIED|UNSPECIFIED,"5000IU,5ML|VIAL|INJ.",0.35,2,1,0.5,0.0,0.0,1,1,318956,DrugsAndMedicine,Heparin,Inj.:,"5000 IU/mL (as Sodium) in 5 mL Vial (IV infusion, SC) (Bovine origin) (Unfractionated) ",C05BA03
+OMEPRAZOLE,UNSPECIFIED|UNSPECIFIED,20MG|CAPSULE|PO,0.35,1,1,0.5,0.0,0.0,1,1,344062,DrugsAndMedicine,Omeprazole,Oral:,20 mg Capsule *Primary Health Care,A02BC01 
+OMEPRAZOLE,UNSPECIFIED|UNSPECIFIED,40MG|CAPSULE|PO,0.35,2,1,0.5,0.0,0.0,1,1,344062,DrugsAndMedicine,Omeprazole,Oral:,40 mg Capsule *Primary Health Care,A02BC01 
+OMEPRAZOLE,UNSPECIFIED|UNSPECIFIED,"10ML,40MG|AMPUL,VIAL|INJ.",0.35,3,1,0.5,0.0,0.0,1,1,344062,DrugsAndMedicine,Omeprazole,Inj.:,40 mg Powder + 10 mL solvent (Ampule/Vial) (IV) ,A02BC01 
+DIPHENHYDRAMINE,UNSPECIFIED|UNSPECIFIED,25MG|CAPSULE|PO,0.35,1,1,0.5,0.0,0.0,1,1,353890,DrugsAndMedicine,Diphenhydramine,Oral:,25 mg (as Hydrochloride) Capsule *Primary Health Care,D04AA32
+DIPHENHYDRAMINE,UNSPECIFIED|UNSPECIFIED,50MG|CAPSULE|PO,0.35,2,1,0.5,0.0,0.0,1,1,353890,DrugsAndMedicine,Diphenhydramine,Oral:,50 mg (as Hydrochloride) Capsule *Primary Health Care,D04AA32
+DIPHENHYDRAMINE,UNSPECIFIED|UNSPECIFIED,"12.5MG,30ML|SYRUP|PO",0.35,3,1,0.5,0.0,0.0,1,1,353890,DrugsAndMedicine,Diphenhydramine,Oral:,12.5 mg/mL (as Hydrochloride) Syrup in 30 mL *Primary Health Care,D04AA32
+SODIUM BICARBONATE,UNSPECIFIED|UNSPECIFIED,325MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,360596,DrugsAndMedicine,Sodium Bicarbonate,Oral:,325 mg Tablet ,B05CB04 
+SODIUM BICARBONATE,UNSPECIFIED|UNSPECIFIED,650MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,360596,DrugsAndMedicine,Sodium Bicarbonate,Oral:,650 mg Tablet ,B05CB04 
+SODIUM BICARBONATE,UNSPECIFIED|UNSPECIFIED,10ML|VIAL|INJ.,0.35,3,1,0.5,0.0,0.0,1,1,360596,DrugsAndMedicine,Sodium Bicarbonate,Inj.:,1 mEq/mL in 10 mL Vial (Pediatric) ,B05CB04 
+TOLVAPTAN,UNSPECIFIED|UNSPECIFIED,15MG|TABLET|PO,0.35,1,0,0.5,0.0,0.0,1,1,374426,DrugsAndMedicine,Tolvaptan,Oral:,15 mg Tablet ,C03XA01 
+MYCOPHENOLATE MOFETIL,UNSPECIFIED|UNSPECIFIED,500MG|TABLET|PO,0.35,1,0,0.5,0.0,0.0,1,1,379628,DrugsAndMedicine,Mycophenolate Mofetil,Oral:,500 mg Tablet ,L04AA 
+AMIODARONE,UNSPECIFIED|UNSPECIFIED,200MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,385933,DrugsAndMedicine,Amiodarone,Oral:,200 mg (as Hydrochloride) Tablet ,C01BD01
+AMIODARONE,UNSPECIFIED|UNSPECIFIED,"3ML,50MG|AMPUL|INJ.",0.35,2,1,0.5,0.0,0.0,1,1,385933,DrugsAndMedicine,Amiodarone,Inj.:,50 mg/mL (as Hydrochloride) in 3 mL Ampul (IV) ,C01BD01
+NICARDIPINE,UNSPECIFIED|UNSPECIFIED,"1MG,2ML|AMPUL|INJ.",0.35,1,1,0.5,0.0,0.0,1,1,385938,DrugsAndMedicine,Nicardipine,Inj.:,1 mg/mL (as Hydrochloride) in 2 mL Ampul (IV) *Primary Health Care,C08CA04
+NICARDIPINE,UNSPECIFIED|UNSPECIFIED,"10ML,1MG|AMPUL|INJ.",0.35,2,1,0.5,0.0,0.0,1,1,385938,DrugsAndMedicine,Nicardipine,Inj.:,1 mg/mL (as Hydrochloride) in 10 mL Ampul (IV) *Primary Health Care,C08CA04
+NICARDIPINE,UNSPECIFIED|UNSPECIFIED,"1MG,2ML|AMPUL|INJ.",0.35,1,1,0.5,0.0,0.0,1,1,385943,DrugsAndMedicine,Nicardipine,Inj.:,1 mg/mL (as Hydrochloride) in 2 mL Ampul (IV) *Primary Health Care,C08CA04
+NICARDIPINE,UNSPECIFIED|UNSPECIFIED,"10ML,1MG|AMPUL|INJ.",0.35,2,1,0.5,0.0,0.0,1,1,385943,DrugsAndMedicine,Nicardipine,Inj.:,1 mg/mL (as Hydrochloride) in 10 mL Ampul (IV) *Primary Health Care,C08CA04
+LOPERAMIDE,UNSPECIFIED|UNSPECIFIED,2MG|CAPSULE|PO,0.35,1,0,0.5,0.0,0.0,1,1,390515,DrugsAndMedicine,Loperamide,Oral:,2 mg (as Hydrochloride) Capsule (N.B.: Not for infants and children less than 12 years old) *Primary Health Care,A07DA03
+MUPIROCIN,UNSPECIFIED|UNSPECIFIED,"2%,5G|CREAM,SACHET|TOP",0.35,1,1,0.5,0.0,0.0,1,1,395216,DrugsAndMedicine,Mupirocin,Topical:,2% Cream in 5 g Sachet *Primary Health Care,D06AX09 
+MUPIROCIN,UNSPECIFIED|UNSPECIFIED,"15G,2%|CREAM|TOP",0.35,2,1,0.5,0.0,0.0,1,1,395216,DrugsAndMedicine,Mupirocin,Topical:,2% Cream in 15 g Tube *Primary Health Care,D06AX09 
+MUPIROCIN,UNSPECIFIED|UNSPECIFIED,"2%,5G|OINTMENT|TOP",0.35,3,1,0.5,0.0,0.0,1,1,395216,DrugsAndMedicine,Mupirocin,Topical:,2% Ointment in 5 g Tube *Primary Health Care,D06AX09 
+URSODEOXYCHOLIC ACID,UNSPECIFIED|UNSPECIFIED,250MG|CAPSULE|PO,0.35,1,1,0.5,0.0,0.0,1,1,394969,DrugsAndMedicine,Ursodeoxycholic Acid,Oral:,250 mg Capsule ,A05AA02
+URSODEOXYCHOLIC ACID,UNSPECIFIED|UNSPECIFIED,250MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,394969,DrugsAndMedicine,Ursodeoxycholic Acid,Oral:,250 mg Tablet ,A05AA02
+URSODEOXYCHOLIC ACID,UNSPECIFIED|UNSPECIFIED,500MG|TABLET|PO,0.35,3,1,0.5,0.0,0.0,1,1,394969,DrugsAndMedicine,Ursodeoxycholic Acid,Oral:,500 mg Tablet ,A05AA02
+SEVOFLURANE,UNSPECIFIED|UNSPECIFIED,250ML|UNSPECIFIED|INH,0.55,1,0,0.5,1.0,0.0,1,1,391755,DrugsAndMedicine,Sevoflurane,Inhalation:,in 250 mL Bottle ,N01AB08
+ONDANSETRON,UNSPECIFIED|UNSPECIFIED,8MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,392726,DrugsAndMedicine,Ondansetron,Oral:,8 mg (as Hydrochloridedihydrate) Tablet ,A04AA01 
+ONDANSETRON,UNSPECIFIED|UNSPECIFIED,"2MG,2ML|AMPUL|INJ.",0.35,2,1,0.5,0.0,0.0,1,1,392726,DrugsAndMedicine,Ondansetron,Inj.:,"2 mg/mL in 2 mL Ampul (IM, IV) ",A04AA01 
+ONDANSETRON,UNSPECIFIED|UNSPECIFIED,"2MG,4ML|AMPUL|INJ.",0.35,3,1,0.5,0.0,0.0,1,1,392726,DrugsAndMedicine,Ondansetron,Inj.:,"2 mg/mL in 4 mL Ampul (IM, IV) ",A04AA01 
+PARACETAMOL,UNSPECIFIED|UNSPECIFIED,300MG|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,409432,DrugsAndMedicine,Paracetamol,Oral:,300 mg Tablet *Primary Health Care,N02BE01
+PARACETAMOL,UNSPECIFIED|UNSPECIFIED,500MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,409432,DrugsAndMedicine,Paracetamol,Oral:,500 mg Tablet *Primary Health Care,N02BE01
+PARACETAMOL,UNSPECIFIED|UNSPECIFIED,"100MG,15ML|DROPS|PO",0.35,3,1,0.5,0.0,0.0,1,1,409432,DrugsAndMedicine,Paracetamol,Oral:,100 mg/mL Drops in 15 mL (Alcohol-free) *Primary Health Care,N02BE01
+OMEPRAZOLE,UNSPECIFIED|UNSPECIFIED,20MG|CAPSULE|PO,0.35,1,1,0.5,0.0,0.0,1,1,397779,DrugsAndMedicine,Omeprazole,Oral:,20 mg Capsule *Primary Health Care,A02BC01 
+OMEPRAZOLE,UNSPECIFIED|UNSPECIFIED,40MG|CAPSULE|PO,0.35,2,1,0.5,0.0,0.0,1,1,397779,DrugsAndMedicine,Omeprazole,Oral:,40 mg Capsule *Primary Health Care,A02BC01 
+OMEPRAZOLE,UNSPECIFIED|UNSPECIFIED,"10ML,40MG|AMPUL,VIAL|INJ.",0.35,3,1,0.5,0.0,0.0,1,1,397779,DrugsAndMedicine,Omeprazole,Inj.:,40 mg Powder + 10 mL solvent (Ampule/Vial) (IV) ,A02BC01 
+PROPOFOL,UNSPECIFIED|UNSPECIFIED,"10MG,20ML|AMPUL|INJ.",0.35,1,1,0.5,0.0,0.0,1,1,413443,DrugsAndMedicine,Propofol,Inj.:,10 mg/mL in 20 mL Ampul (IV) ,N01AX10
+PROPOFOL,UNSPECIFIED|UNSPECIFIED,"10MG,50ML|PRE-FILLED SYRINGE|INJ.",0.35,2,1,0.5,0.0,0.0,1,1,413443,DrugsAndMedicine,Propofol,Inj.:,10 mg/mL in 50 mL Pre-filled syringe (IV) ,N01AX10
+PROPOFOL,UNSPECIFIED|UNSPECIFIED,"10MG,20ML|VIAL|INJ.",0.35,3,1,0.5,0.0,0.0,1,1,413443,DrugsAndMedicine,Propofol,Inj.:,10 mg/mL in 20 mL Vial (IV) ,N01AX10
+POTASSIUM,UNSPECIFIED|UNSPECIFIED,UNSPECIFIED|TABLET|PO,0.35,1,1,0.5,0.0,0.0,1,1,414902,DrugsAndMedicine,Potassium,Oral:,10 mEq (as Citrate) Tablet ,A12BA
+POTASSIUM,UNSPECIFIED|UNSPECIFIED,1620MG|TABLET|PO,0.35,2,1,0.5,0.0,0.0,1,1,414902,DrugsAndMedicine,Potassium,Oral:,1620 mg (15 mEq) Tablet ,A12BA
+IRON SUCROSE,UNSPECIFIED|UNSPECIFIED,"20MG,5ML|AMPUL|INJ.",0.35,1,0,0.5,0.0,0.0,1,1,412748,DrugsAndMedicine,Iron sucrose,Inj.:,20 mg/mL in 5 mL Ampul ,B03AE04
