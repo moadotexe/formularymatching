@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import argparse
+from enum import auto
 from pathlib import Path
 import pandas as pd
 import math
@@ -288,11 +289,52 @@ def main():
         bucket(sc, rk, bool(t)) for sc, rk, t in zip(top1["score"], top1["rank"], top1["ties_top1"])
     ]
 
-    # write scored + buckets
+    # write scored + buckets + diagnostics
     scored_path = out_dir / "scored.csv"
     buckets = top1["bucket"].value_counts(dropna=False).rename_axis("bucket").reset_index(name="count")
     buckets["percent"] = (buckets["count"] / len(top1) * 100).round(2)
     buckets_path = out_dir / "buckets.csv"
+
+    # --- Summary with rates ---
+    total = int(len(top1))
+    auto  = int((top1["bucket"] == "auto_accepted").sum())
+    review= int((top1["bucket"] == "needs_review").sum())
+    rej   = int((top1["bucket"] == "rejected").sum())
+
+    def pct(n): 
+        return round((n / total * 100.0), 2) if total else 0.0
+
+    summary_rows = [
+        {"bucket":"auto_accepted", "count":auto,  "percent":pct(auto)},
+        {"bucket":"needs_review",  "count":review,"percent":pct(review)},
+        {"bucket":"rejected",      "count":rej,   "percent":pct(rej)},
+        {"bucket":"TOTAL",         "count":total, "percent":100.00 if total else 0.0},
+]
+
+
+    summary_df = pd.DataFrame(summary_rows)
+    summary_csv = out_dir / "summary_matches.csv"
+    summary_md  = out_dir / "summary_matches.md"
+    summary_df.to_csv(summary_csv, index=False)
+
+    summary_md.write_text(
+        "\n".join([
+            "# Match Summary (Scored)",
+            "",
+            f"- Total eSOA rows with a candidate: **{total:,}**",
+            f"- Auto-accepted: **{auto:,}** ({pct(auto)}%)",
+            f"- Needs review: **{review:,}** ({pct(review)}%)",
+            f"- Rejected: **{rej:,}** ({pct(rej)}%)",
+            "",
+            "## Breakdown table",
+            summary_df.to_markdown(index=False) if hasattr(summary_df, "to_markdown") else summary_df.to_string(index=False),
+        ]),
+        encoding="utf-8"
+        )
+
+    print("\nSummary (scored):")
+    print(summary_df.to_string(index=False))
+
 
     top1.to_csv(scored_path, index=False)
     buckets.to_csv(buckets_path, index=False)
