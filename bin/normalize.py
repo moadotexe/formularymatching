@@ -271,6 +271,48 @@ def strength_first_to_numeric(df: pd.DataFrame) -> pd.DataFrame:
     df["_STRENGTH_VAL"]  = kinds_vals.map(lambda kv: kv[1])
     return df
 
+def add_route_family_and_form_group(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Adds:
+      _ROUTE_FAMILY : coarser category derived from _ROUTE_N (PO→ENTERAL, IV→PARENTERAL, etc.)
+      _FORM_FIRST   : first item in _FORMS
+      _FORM_GROUP   : grouped form category (TABLET/CAPSULE→SOLID_ORAL, etc.)
+    Makes these fields categorical for faster joins and grouping.
+    """
+    ROUTE_FAMILY = {
+        "PO": "ENTERAL", "SL": "ENTERAL",
+        "IV": "PARENTERAL", "IM": "PARENTERAL", "SC": "PARENTERAL",
+        "TOP": "TOPICAL", "TRANSDERMAL": "TOPICAL",
+        "INH": "RESPIRATORY", "IN": "RESPIRATORY",
+    }
+
+    FORM_GROUPS = {
+        "TABLET": "SOLID_ORAL", "CAPSULE": "SOLID_ORAL",
+        "SYRUP": "LIQUID_ORAL", "SOLUTION": "LIQUID_ORAL", "SUSPENSION": "LIQUID_ORAL",
+        "CREAM": "TOPICAL_SEMISOLID", "GEL": "TOPICAL_SEMISOLID", "OINTMENT": "TOPICAL_SEMISOLID",
+        "INHALER": "RESPIRATORY", "SPRAY": "RESPIRATORY",
+        "PATCH": "TOPICAL_PATCH", "SUPPOSITORY": "RECTAL/VAGINAL",
+    }
+
+    def first_or_empty(lst):
+        if isinstance(lst, list) and lst:
+            return lst[0]
+        return ""
+
+    df = df.copy()
+
+    # Route → family
+    df["_ROUTE_FAMILY"] = df["_ROUTE_N"].map(lambda r: ROUTE_FAMILY.get(str(r).upper(), str(r).upper()) if isinstance(r, str) else "")
+    # Form → first + group
+    df["_FORM_FIRST"] = df["_FORMS"].map(first_or_empty)
+    df["_FORM_GROUP"] = df["_FORM_FIRST"].map(lambda f: FORM_GROUPS.get(str(f).upper(), str(f).upper()))
+
+    for c in ["_ROUTE_N", "_ROUTE_FAMILY", "_FORM_FIRST", "_FORM_GROUP"]:
+        if c in df.columns:
+            df[c] = df[c].astype("category")
+
+    return df
+
 def normalize_salts_base(text: str) -> str:
     """Strip common salt/ion terms for a generic 'base' molecule string."""
     if pd.isna(text): return ""
