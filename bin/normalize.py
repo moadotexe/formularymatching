@@ -215,8 +215,7 @@ def strength_first_to_numeric(df: pd.DataFrame) -> pd.DataFrame:
       - _STRENGTH_KIND : "mg", "mg_per_ml", "mg_per_g", "iu", "iu_per_ml", "mg_per_act", "iu_per_act", "other"
       - _STRENGTH_VAL  : numeric value in the appropriate base (mg, mg/mL, mg/g, IU, IU/mL, mg/act, IU/act)
     """
-    df = df.copy()
-
+    
     def parse_token(tok: str):
         if not isinstance(tok, str) or not tok:
             return ("other", 0.0)
@@ -262,6 +261,7 @@ def strength_first_to_numeric(df: pd.DataFrame) -> pd.DataFrame:
                 guess_col = c; break
         if guess_col:
             df["_STRENGTHS"] = df[guess_col].map(strength_first_to_numeric)
+            df["_STRENGTHS"] = df[guess_col].map(lambda s: [])
         else:
             df["_STRENGTHS"] = [[]]*len(df)
 
@@ -269,6 +269,8 @@ def strength_first_to_numeric(df: pd.DataFrame) -> pd.DataFrame:
     kinds_vals = df["_STRENGTH_FIRST"].map(parse_token)
     df["_STRENGTH_KIND"] = kinds_vals.map(lambda kv: kv[0])
     df["_STRENGTH_VAL"]  = kinds_vals.map(lambda kv: kv[1])
+    df = df.copy()
+
     return df
 
 def add_route_family_and_form_group(df: pd.DataFrame) -> pd.DataFrame:
