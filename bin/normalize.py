@@ -127,7 +127,7 @@ def extract_strengths(text: str) -> List[str]:
                 base = f"{base}/{m.group(3)}{m.group(4).upper()}"
             strengths.add(base)
         elif m.group(5):  # IU/ML
-            strengths.add(f"{m.group(5)}{m.group(6).upper()}/{m.group(7).upper()}")
+            strengths[].add(f"{m.group(5)}{m.group(6).upper()}/{m.group(7).upper()}")
     return sorted(strengths) or ["UNSPECIFIED"]
 
 def normalize_salts_base(text: str) -> str:

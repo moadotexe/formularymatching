@@ -1,0 +1,5 @@
+bucket,count,percent
+auto_accepted,0,0.0
+needs_review,0,0.0
+rejected,2,100.0
+TOTAL,2,100.0
