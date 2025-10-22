@@ -8,6 +8,7 @@ from pathlib import Path
 UNIT_MAP = {
     "MGS": "MG", "MG.": "MG", "MGM": "MG",
     "MCG.": "MCG", "UG": "MCG",
+    "GRAMS": "G", "GRAM": "G",
     "GMS": "G", "GM": "G",
     "IU/ML": "IU/ML", "IU": "IU"
 }
@@ -146,6 +147,36 @@ def extract_forms(text: str) -> List[str]:
     forms = [f for f in FORM_KEYS if re.search(rf"\b{re.escape(f)}\b", norm_text)]
     return forms or ["UNSPECIFIED"]
 
+def extract_strengths(s: str) -> List[str]:
+    if not isinstance(s, str) or not s:
+        return []
+    
+    tokens = []
+    s = s.upper()
+    
+    # Check for ratio patterns (e.g., "5MG/5ML")
+    for m in _RATIO_RE.finditer(s):
+        num = float(m.group('num'))
+        unum = UNIT_ALIASES.get(m.group('unum').upper(), m.group('unum').upper())
+        den = m.group('den') or '1'
+        dunit = _DEN_CANON.get(m.group('dunit').upper(), m.group('dunit').upper())
+        tokens.append(f"{num}{unum}/{den}{dunit}")
+    
+    # Check for simple patterns (e.g., "500MG")
+    for m in _SIMPLE_RE.finditer(s):
+        qty = float(m.group('q'))
+        unit = UNIT_ALIASES.get(m.group('u').upper(), m.group('u').upper())
+        tokens.append(f"{qty}{unit}")
+    
+    # Check for per-unit patterns (e.g., "10MG/TABLET")
+    for m in _PERUNIT_RE.finditer(s):
+        qty = float(m.group('q'))
+        unit = UNIT_ALIASES.get(m.group('u').upper(), m.group('u').upper())
+        per_unit = m.group('unit').upper()
+        tokens.append(f"{qty}{unit}/{per_unit}")
+    
+    return tokens
+
 def _canon_unit(u: str) -> str:
     u = (u or "").upper().strip().replace(".", "")
     u = UNIT_ALIASES.get(u, u)
@@ -207,71 +238,6 @@ def _safe_float(x: str) -> float:
         return float(x)
     except Exception:
         return 0.0
-
-def strength_first_to_numeric(df: pd.DataFrame) -> pd.DataFrame:
-    """
-    Derives numeric features from the FIRST parsed strength token:
-      - _STRENGTH_FIRST: canonical token string (e.g., "500MG", "5MG/ML")
-      - _STRENGTH_KIND : "mg", "mg_per_ml", "mg_per_g", "iu", "iu_per_ml", "mg_per_act", "iu_per_act", "other"
-      - _STRENGTH_VAL  : numeric value in the appropriate base (mg, mg/mL, mg/g, IU, IU/mL, mg/act, IU/act)
-    """
-    
-    def parse_token(tok: str):
-        if not isinstance(tok, str) or not tok:
-            return ("other", 0.0)
-        t = tok.upper()
-
-        # RATIO kinds
-        if t.endswith("MG/ML"):
-            try: return ("mg_per_ml", float(t.replace("MG/ML","")))
-            except: return ("mg_per_ml", 0.0)
-        if t.endswith("MG/G"):
-            try: return ("mg_per_g", float(t.replace("MG/G","")))
-            except: return ("mg_per_g", 0.0)
-        if t.endswith("IU/ML"):
-            try: return ("iu_per_ml", float(t.replace("IU/ML","")))
-            except: return ("iu_per_ml", 0.0)
-        if t.endswith("MG/ACT"):
-            try: return ("mg_per_act", float(t.replace("MG/ACT","")))
-            except: return ("mg_per_act", 0.0)
-        if t.endswith("IU/ACT"):
-            try: return ("iu_per_act", float(t.replace("IU/ACT","")))
-            except: return ("iu_per_act", 0.0)
-
-        # SIMPLE masses / IU
-        if t.endswith("MG"):
-            try: return ("mg", float(t.replace("MG","")))
-            except: return ("mg", 0.0)
-        if t.endswith("IU"):
-            try: return ("iu", float(t.replace("IU","")))
-            except: return ("iu", 0.0)
-
-        # COMBO like "250MG+125MG" -> take the FIRST element's kind/value
-        if "+" in t:
-            left = t.split("+", 1)[0]
-            return parse_token(left)
-
-        return ("other", 0.0)
-
-    # ensure _STRENGTHS exists; if not, create via extract_strengths on a best-effort column
-    if "_STRENGTHS" not in df.columns:
-        guess_col = None
-        for c in ["DESCRIPTION","ITEM_DESCRIPTION","TECHNICAL_SPECIFICATIONS","SPECIFICATION","SPECIFICATIONS"]:
-            if c in df.columns:
-                guess_col = c; break
-        if guess_col:
-            df["_STRENGTHS"] = df[guess_col].map(strength_first_to_numeric)
-            df["_STRENGTHS"] = df[guess_col].map(lambda s: [])
-        else:
-            df["_STRENGTHS"] = [[]]*len(df)
-
-    df["_STRENGTH_FIRST"] = df["_STRENGTHS"].map(lambda lst: lst[0] if isinstance(lst, list) and lst else "")
-    kinds_vals = df["_STRENGTH_FIRST"].map(parse_token)
-    df["_STRENGTH_KIND"] = kinds_vals.map(lambda kv: kv[0])
-    df["_STRENGTH_VAL"]  = kinds_vals.map(lambda kv: kv[1])
-    df = df.copy()
-
-    return df
 
 def add_route_family_and_form_group(df: pd.DataFrame) -> pd.DataFrame:
     """
@@ -336,7 +302,9 @@ def process_dataframe(df: pd.DataFrame, desc_col: Optional[str]) -> pd.DataFrame
         raise ValueError("Description column name cannot be None")
     res = df.copy()
     res["_FORMS"] = res[desc_col].map(extract_forms)
-    res["_STRENGTHS"] = res[desc_col].map(strength_first_to_numeric)
+    # FIX: parse strengths per row (Series) — not via the DataFrame-level numeric feature builder
+    res["_STRENGTHS"] = res[desc_col].map(extract_strengths)
+
     s, f, k = zip(*[as_key(sr, fr) for sr, fr in zip(res["_STRENGTHS"], res["_FORMS"])])
     res["_SIG_STRENGTHS"] = list(s)
     res["_SIG_FORMS"] = list(f)
@@ -369,9 +337,9 @@ def _ensure_strengths_forms(df: pd.DataFrame) -> pd.DataFrame:
         if need_forms:     res["_FORMS"]     = [["UNSPECIFIED"]] * len(res)
         return res
 
-    # Derive from chosen column
+    # FIX: derive per-row from text
     if need_strengths:
-        res["_STRENGTHS"] = res[desc_col].map(strength_first_to_numeric)
+        res["_STRENGTHS"] = res[desc_col].map(extract_strengths)
     if need_forms:
         res["_FORMS"] = res[desc_col].map(extract_forms)
     return res
