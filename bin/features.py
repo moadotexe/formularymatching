@@ -4,7 +4,7 @@ from pathlib import Path
 import pandas as pd
 
 from normalize import (
-    pick_col, normalize_route, rebuild_sig_with_route, strength_first_to_numeric, add_route_family_and_form_group           # NEW: numeric dosage features add_route_family_and_form_group,      # NEW: route/form groupings
+    pick_col, normalize_route, rebuild_sig_with_route, extract_strengths, add_route_family_and_form_group           # NEW: numeric dosage features add_route_family_and_form_group,      # NEW: route/form groupings
 )
 
 # Optional: unified IO so you can switch to .parquet intermediates easily
@@ -43,8 +43,10 @@ def add_fast_features(df: pd.DataFrame) -> pd.DataFrame:
       - _ROUTE_FAMILY
       (and make relevant columns categorical for faster joins/groupbys)
     """
-    df = strength_first_to_numeric(df)
+    
+    df = extract_strengths(df)
     df = add_route_family_and_form_group(df)
+    
     # Optional: make join keys categorical to speed merges downstream
     for col in ("_SIG3", "_ROUTE_N", "_ROUTE_FAMILY", "_FORM_FIRST", "_FORM_GROUP", "_STRENGTH_KIND"):
         if col in df.columns:
