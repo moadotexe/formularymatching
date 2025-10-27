@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import argparse
 from pathlib import Path
 import pandas as pd
@@ -43,10 +42,7 @@ def add_fast_features(df: pd.DataFrame) -> pd.DataFrame:
       - _ROUTE_FAMILY
       (and make relevant columns categorical for faster joins/groupbys)
     """
-    
-    df = extract_strengths(df)
     df = add_route_family_and_form_group(df)
-    
     # Optional: make join keys categorical to speed merges downstream
     for col in ("_SIG3", "_ROUTE_N", "_ROUTE_FAMILY", "_FORM_FIRST", "_FORM_GROUP", "_STRENGTH_KIND"):
         if col in df.columns:
