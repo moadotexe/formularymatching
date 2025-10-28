@@ -6,6 +6,7 @@
 - Rejected: **1** (100.0%)
 
 ## Breakdown table
+
 | bucket        |   count |   percent |
 |:--------------|--------:|----------:|
 | auto_accepted |       0 |         0 |
