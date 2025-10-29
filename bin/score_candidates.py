@@ -231,45 +231,107 @@ def main():
         esoa = ensure_listcol(esoa, c)
         pnf  = ensure_listcol(pnf, c)
 
-    # Blocking on _GENERIC_BASE
-    pnf_blocks = {g: sub for g, sub in pnf.groupby("_GENERIC_BASE", dropna=False)}
+        # --- Fallback blocking helpers (INSERT ABOVE THE BLOCKING SECTION) -----------------
+def _series_nonempty(s):
+    return s.astype(str).str.len() > 0
+
+def _make_desc_token(df, colname):
+    # Create a coarse token from DESCRIPTION/TECHNICAL SPECIFICATIONS
+    tok = (
+        df[colname]
+        .astype(str)
+        .str.upper()
+        .str.replace(r"[^A-Z0-9()+/%.\- ]+", " ", regex=True)
+        .str.split(r"[,/;()\- ]", regex=True)
+        .str.get(0)
+        .fillna("")
+    )
+    return tok
+
+def choose_block_cols(esoa_df: pd.DataFrame, pnf_df: pd.DataFrame) -> tuple[str, str]:
+    """
+    Decide which column to use for blocking on each side (eSOA, PNF).
+    Prefers _GENERIC_BASE; falls back to optional AC/ATC keys; then to a coarse
+    first-token from a description column. Returns (esoa_block_col, pnf_block_col).
+    """
+    # 1) Primary: _GENERIC_BASE
+    if "_GENERIC_BASE" in esoa_df.columns and "_GENERIC_BASE" in pnf_df.columns:
+        if _series_nonempty(esoa_df["_GENERIC_BASE"]).any() and _series_nonempty(pnf_df["_GENERIC_BASE"]).any():
+            return "_GENERIC_BASE", "_GENERIC_BASE"
+
+    # 2) Fallback: AC/ATC style keys (only if present on both sides)
+    for c in ["_AC_PNF_KEYS", "_AC_ATC_CODES", "ATC_CODE"]:
+        if c in esoa_df.columns and c in pnf_df.columns:
+            if _series_nonempty(esoa_df[c]).any() and _series_nonempty(pnf_df[c]).any():
+                return c, c
+
+    # 3) Fallback: first token from DESCRIPTION / TECH SPECS
+    desc_candidates = ["DESCRIPTION", "TECHNICAL SPECIFICATIONS", "TECHNICAL_SPECIFICATIONS"]
+    for col in desc_candidates:
+        if col in esoa_df.columns and col in pnf_df.columns:
+            esoa_df["_BLOCK_DESC_TOKEN"] = _make_desc_token(esoa_df, col)
+            pnf_df["_BLOCK_DESC_TOKEN"]  = _make_desc_token(pnf_df,  col)
+            return "_BLOCK_DESC_TOKEN", "_BLOCK_DESC_TOKEN"
+
+    # 4) Last resort: do not block (dangerous for speed; use only if needed)
+    esoa_df["_BLOCK_ALL"] = "ALL"
+    pnf_df["_BLOCK_ALL"]  = "ALL"
+    return "_BLOCK_ALL", "_BLOCK_ALL"
+# --- END helpers -------------------------------------------------------------------
+
+
+    # Flexible blocking column choice
+    blk_esoa, blk_pnf = choose_block_cols(esoa, pnf)
+    
+    #Group PNF by the chosen block
+    pnf_blocks = {g: sub for g, sub in pnf.groupby(blk_pnf, dropna=False)}
+
     rows = []
     for _, er in esoa.iterrows():
-        g = er.get("_GENERIC_BASE", "")
-        if g not in pnf_blocks:
+        key = er.get(blk_esoa, "")
+        # Normalize key
+        key = "" if pd.isna(key) or str(key) == "" else key
+        if key not in pnf_blocks:
             continue
-        cand = pnf_blocks[g]
-        scored = []
+
+        cand = pnf_blocks[key]
+        scored_cand = []
         for _, pr in cand.iterrows():
             sc, parts = score_row(er, pr)
-            scored.append((sc, parts, pr))
-        if not scored:
-            continue
-        # rank
-        scored.sort(key=lambda t: t[0], reverse=True)
-        topk = scored[: max(1, args.topk)]
-        # tie check for top-1
-        has_tie = len(topk) > 1 and topk[0][0] == topk[1][0]
+            scored_cand.append( (sc, pr, parts) )
+        if not scored_cand:
+            continue    
 
+        # rank and collect
+        scored.sort(key=lambda x: x[0], reverse=True)
+        topk = scored_cand[:args.topk]
+        has_tie = len(topk) > 1 and math.isclose(topk[0][0], topk[1][0], abs_tol=1e-8)
+        
         rank = 0
         for sc, parts, pr in topk:
             rank += 1
-            rows.append({
-                "_GENERIC_BASE": g,
+            rows.append = ({
+                "_BLOCK_KEY": key,
+                "_BLOCK_COL": blk_esoa,
+                "_BLOCK_COL_PNF": blk_pnf,
+                "_GENERIC_BASE": er.get("_GENERIC_BASE", ""),
                 "_SIG3_ESOA": er["_SIG3"],
-                "_SIG3_PNF": pr["_SIG3"],
-                "score": sc,
-                "rank": rank,
-                "ties_top1": int(has_tie),
+                "_ESOA_ID":   pr["_SIG3"],
+                "_PNF_ID":    pr.get("ID", ""),
+                "score":      sc,
+                "rank":       rank,
+                "ties_top1":  int(has_tie),
                 "strength_sim": parts["strength_sim"],
                 "form_sim": parts["form_sim"],
                 "route_sim": parts["route_sim"],
                 "brand_hit": parts["brand_hit"],
-                "atc_hit": parts["atc_hit"],
-                # carry IDs/refs if present
-                **{k: er[k] for k in er.index if k.endswith("_ID") or k in ["ITEM_NUMBER","ITEM_REF_CODE"] if k in er},
-                **{f"{k}_PNF": pr[k] for k in pr.index if k in ["MOLECULE","ROUTE","TECHNICAL_SPECIFICATIONS","ATC_CODE"] and k in pr},
+                "atc_hit": parts["atc_hit"]
+                #carry IDS
+                **{k: er[k] for k in er.index if k.endswith("_ID") or k in ["ITEM_NUMBER", "ITEM_REF_CODE", "ITEM_NUM"] if k in er},
+                **{f"{k}_PNF": pr[k] for k in pr.index if k in ["MOLECULE", "ROUTE", "TECHNICAL_SPECIFICATIONS", "ATC_CODE"] and k in pr},
             })
+   
+
     if not rows:
         (out_dir / "candidates_raw.csv").write_text("", encoding="utf-8")
         (out_dir / "scored.csv").write_text("", encoding="utf-8")

@@ -6,6 +6,66 @@ from normalize import (
     pick_col, normalize_route, rebuild_sig_with_route, extract_strengths, add_route_family_and_form_group           # NEW: numeric dosage features add_route_family_and_form_group,      # NEW: route/form groupings
 )
 
+# --- ADD: lightweight fallback base & robust _SIG3 builder -------------------
+import re
+
+SALTS = r"(?: HCL| HYDROCHLORIDE| SODIUM| POTASSIUM| CALCIUM| PHOSPHATE| SULFATE| MALEATE| TARTRATE| MESYLATE| NITRATE| ACETATE)\b"
+
+def _fallback_generic_base_row(row: dict) -> str:
+    """
+    Best-effort base derivation when _GENERIC_BASE is missing.
+    Try common fields; strip typical salt words; uppercase + normalize spaces.
+    """
+    for c in ("_GENERIC_BASE", "MOLECULE", "GENERIC_NAME", "GENERIC", "ACTIVE_INGREDIENT"):
+        v = row.get(c)
+        if isinstance(v, str) and v.strip():
+            base = re.sub(SALTS, "", " " + v.strip().upper()).strip()
+            base = re.sub(r"\s+", " ", base)
+            return base
+    # fallback from description if absolutely necessary
+    desc = row.get("DESCRIPTION") or row.get("TECHNICAL SPECIFICATIONS") or row.get("TECHNICAL_SPECIFICATIONS")
+    if isinstance(desc, str) and desc.strip():
+        # keep first token-ish word as a weak base
+        tok = re.split(r"[,/;()\-]", desc.upper(), maxsplit=1)[0]
+        tok = re.sub(SALTS, "", " " + tok).strip()
+        tok = re.sub(r"\s+", " ", tok)
+        return tok
+    return ""
+
+def ensure_generic_base(df: pd.DataFrame) -> pd.DataFrame:
+    """Ensure _GENERIC_BASE exists and is non-empty, using fallback if needed."""
+    df = df.copy()
+    if "_GENERIC_BASE" not in df.columns:
+        df["_GENERIC_BASE"] = ""
+
+    mask_empty = df["_GENERIC_BASE"].astype(str).str.len().eq(0)
+    if mask_empty.any():
+        df.loc[mask_empty, "_GENERIC_BASE"] = df[mask_empty].apply(lambda r: _fallback_generic_base_row(r), axis=1)
+    return df
+
+def ensure_sig3_robust(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Make sure _SIG3 never collapses to empty pieces:
+    fill empty strengths/forms/routes with 'UNSPECIFIED' before building.
+    """
+    df = df.copy()
+    # Ensure presence
+    for col in ("_STRENGTHS", "_FORMS", "_ROUTE_N"):
+        if col not in df.columns:
+            df[col] = ""
+
+    # Coerce empties
+    s = df["_STRENGTHS"].astype(str).replace({"nan": "", "None": ""})
+    f = df["_FORMS"].astype(str).replace({"nan": "", "None": ""})
+    r = df["_ROUTE_N"].astype(str).replace({"nan": "", "None": ""})
+
+    s = s.where(s.str.len() > 0, "UNSPECIFIED")
+    f = f.where(f.str.len() > 0, "UNSPECIFIED")
+    r = r.where(r.str.len() > 0, "UNSPECIFIED")
+
+    df["_SIG3"] = s + "|" + f + "|" + r
+    return df
+
 # Optional: unified IO so you can switch to .parquet intermediates easily
 def read_any(path: str) -> pd.DataFrame:
     p = Path(path)
@@ -64,6 +124,8 @@ def main():
     # Normalize route + ensure composite signature
     esoa = ensure_route_n(esoa);  pnf = ensure_route_n(pnf)
     esoa = ensure_sig3(esoa);     pnf = ensure_sig3(pnf)
+    esoa = ensure_generic_base(esoa); pnf = ensure_generic_base(pnf)
+    esoa = ensure_sig3_robust(esoa);  pnf = ensure_sig3_robust(pnf)
 
     # NEW: fast, numeric features for dosage + route/form families
     esoa = add_fast_features(esoa)
