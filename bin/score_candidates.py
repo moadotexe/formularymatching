@@ -5,7 +5,9 @@ from pathlib import Path
 import pandas as pd
 import math
 import re
-from typing import List, Tuple
+from typing import List, Tuple, Union 
+from normalize import pick_col
+import ast 
 
 # ----------------------------
 # Helpers: unit parsing / route+form similarity
@@ -100,7 +102,7 @@ def strength_similarity(esoa_strengths: List[str], pnf_strengths: List[str]) -> 
         return 0.7
     return 0.2
 
-def route_similarity(r_e: str | List[str], r_p: str | List[str]) -> float:
+def route_similarity(r_e: Union[str, List[str]], r_p: Union[str, List[str]]) -> float:
     """Compare routes and return similarity score between 0.0-1.0"""
     # Convert string inputs to lists if needed
     r_e_list = [r_e] if isinstance(r_e, str) else r_e
@@ -213,14 +215,16 @@ def main():
         if df[col].dtype == object:
             # try to parse simple list strings like "['500 MG']" or "500 MG"
             def parse_cell(x):
-                if isinstance(x, list): return x
-                s = str(x)
+                if isinstance(x, list):
+                    return x
+                if pd.isna(x):
+                    return []
+                s = str(x).strip()
                 if s.startswith("[") and s.endswith("]"):
-                    # very naive split; robust option is ast.literal_eval
                     try:
-                        import ast
                         v = ast.literal_eval(s)
-                        if isinstance(v, list): return [str(z) for z in v]
+                        if isinstance(v, list):
+                            return [str(z) for z in v]
                     except Exception:
                         pass
                 return [s] if s else []
