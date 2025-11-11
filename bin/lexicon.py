@@ -1,13 +1,53 @@
 # lexicon.py
-import ahocorasick
+from __future__ import annotations
 
-def build_ac(words: list[str]) -> ahocorasick.Automaton:
+from typing import Iterable, Any, TYPE_CHECKING, List, Dict, Sequence, Tuple, Set
+
+if TYPE_CHECKING:
+    # Same folder:
+    from models import Vocabs
+    # or, if you use a package, e.g.:
+    # from matcher.models import Vocabs
+
+
+# ahocorasick import here (or your local Aho)
+import ahocorasick  # if you’re using pyahocorasick; else import your Aho
+import unicodedata
+import regex as re
+
+_WS = re.compile(r"\s+")
+
+def _normalize_text(s: str) -> str:
+    s = unicodedata.normalize("NFKC", s or "")
+    s = s.replace("\u2010", "-").replace("\u2011", "-").replace("\u2012", "-").replace("\u2013", "-").replace("\u2014", "-")
+    s = s.replace("-", " ").lower().strip()
+    return _WS.sub(" ", s)
+
+def build_ac(words: Sequence[str] | Iterable[str]) -> Any:
+    """
+    Build an AC automaton from a sequence/iterable of strings.
+    Ignores None/empty after normalization; deduplicates.
+    Returns pyahocorasick.Automaton or your Aho class instance.
+    """
+    # If you’re using pyahocorasick:
     A = ahocorasick.Automaton()
-    for w in sorted(set(w.strip().lower() for w in words), key=len):
-        if not w: continue
-        A.add_word(w, w)
+    seen: Set[str] = set()
+    for w in words:
+        if w is None:
+            continue
+        w2 = _normalize_text(str(w))
+        if not w2 or w2 in seen:
+            continue
+        seen.add(w2)
+        A.add_word(w2, w2)
     A.make_automaton()
     return A
+
+# If you use your own Aho class instead, swap the body for:
+#   items = []
+#   for w in words: ...
+#   return Aho([(w2, {"canon": w2}) for w2 in seen])
+
 
 def build_vocabs(pnf_df, fda_brand_df, who_df, food_df) -> Vocabs:
     # ingredient set

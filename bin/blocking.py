@@ -1,5 +1,11 @@
 # blocking.py
+from __future__ import annotations  # allows forward-ref type hints without quotes (Py3.8+)
+
 from collections import defaultdict
+from typing import DefaultDict, Dict, List, Set
+
+# absolute import if drugmatch is your package root
+from models import CanonRow
 
 def build_indexes(esoa_rows: list[CanonRow]):
     idx = {
