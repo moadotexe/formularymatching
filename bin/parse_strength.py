@@ -53,7 +53,11 @@ def parse_strength(text: str, form_family: str, unit_map: dict) -> StrengthStruc
     if m:
         amt = _to_mg(float(m.group("num")), m.group("unit"), unit_map)
         vol_ml = float(m.group("vol")) * (1.0 if m.group("volu")=="ml" else 1000.0)
-        mgml = amt/vol_ml if vol_ml else None
+
+        #guard zero/invalid volume
+        if not vol_ml or vol_ml<=0:
+            return StrengthStruct(type="per_volume", value_mg_per_ml=None, bucket=None, assumed=True)
+        mgml = amt/vol_ml
         return StrengthStruct(type="per_volume", value_mg_per_ml=mgml, bucket=bucket_per_ml(mgml))
 
     # 3) percent
