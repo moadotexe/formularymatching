@@ -4,7 +4,7 @@ import argparse, re
 from dataclasses import dataclass
 from collections import deque, defaultdict
 from pathlib import Path
-from typing import Any, Dict, Iterable, List, Tuple
+from typing import Any, Dict, Iterable, List, Tuple, Optional, cast
 
 import pandas as pd
 from normalize import (
@@ -155,10 +155,11 @@ def build_patterns(pnf: pd.DataFrame, fda: pd.DataFrame, who: pd.DataFrame,
 def add_ac_features(esoa: pd.DataFrame, patterns: List[Tuple[str,Dict[str,Any]]],
                     desc_candidates: List[str]) -> pd.DataFrame:
     esoa = ensure_unique_columns(normalize_headers(esoa))
-    desc_col = next((c for c in desc_candidates if c in esoa.columns), None)
-    if not desc_col:
-        raise KeyError("ac_features: no description column found in eSOA.")
-
+    desc_col_opt: Optional[str] = next(( c for c in desc_candidates if c in esoa.columns ), None)
+    if desc_col_opt is None:
+        raise KeyError("ac_features.py: No description column found in eSOA among candidates: {desc_candidates}")
+    desc_col: str = desc_col_opt
+                     
     ac = Aho(patterns)
     rows = []
     for idx, row in esoa.iterrows():
