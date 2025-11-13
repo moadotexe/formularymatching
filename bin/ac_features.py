@@ -124,7 +124,7 @@ def build_patterns(pnf: pd.DataFrame, fda: pd.DataFrame, who: pd.DataFrame,
 
     # PNF names → PNF key
     for _, r in pnf.iterrows():
-        key = str(r[pnf_key])
+        key = str(0)
         for c in name_cols:
             v = r.get(c, "")
             for tok in _variants(str(v)):

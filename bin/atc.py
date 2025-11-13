@@ -1,4 +1,5 @@
 # atc.py
+from models import CanonRow
 def index_who(who_df):
     # build maps: ingredient -> {route -> [atc_codes]}
     # keep 4th/5th-level helpers
